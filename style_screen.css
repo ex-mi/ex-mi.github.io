@@ -1507,8 +1507,8 @@ ul li img{
 .f_bl-a{
 /*  outline: 1px solid red; */
     order: 1;
-width: 640px;
-height: auto;
+/*width: 640px;*/
+/*height: auto;*/
     flex: 1 1 auto;
     padding: 10px 10px 10px 0px;
 
