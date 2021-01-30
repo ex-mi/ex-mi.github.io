@@ -1,0 +1,4079 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2 июл. 2020 г., 20:35:56
+    Author     : legal_adviser
+*/
+
+
+/* new ipad */
+
+@media only screen and (orientation : portrait) and (min-width : 701px) and (max-width : 1200px){
+	.parent_page-nasledstvo .fixwrap,
+	.page_nasledstvo .fixwrap{
+		position: relative!important;
+		flex-wrap: nowrap!important;
+	}
+	.page_nasledstvo .img-nasl_a{
+		width: 350px!important;
+		margin: 5px auto!important;
+	}
+	.page_nasledstvo .img-nasl_a figure{
+		width: 350px!important;
+		border: 0!important;
+	}
+	.page_nasledstvo .img-nasl_a figcaption{
+		width: 350px!important;
+		margin: 5px auto!important;
+		padding: 5px 5px 0px 5px!important;
+		border: 0!important;
+		bottom: 0!important;
+	}
+	.parent_page-nasledstvo.page-child .notary_side_l,
+	.page_nasledstvo.page-parent .notary_side_l{
+		flex-basis: 290px!important;
+		-webkit-flex-basis: 290px!important;
+		padding: 0!important;
+		order: 1!important;
+	}
+	.parent_page-nasledstvo .entry-content p,
+	.parent_page-nasledstvo li{
+		font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 16px);
+	/*	font-size: 18px;*/
+	}
+	
+}
+@media only screen and (orientation : landscape) and (min-width : 701px) and (max-width : 1200px){
+	.parent_page-nasledstvo .fixwrap,
+	.page_nasledstvo .fixwrap{
+		position: relative!important;
+		flex-wrap: nowrap!important;
+	}
+	.page_nasledstvo .img-nasl_a{
+		width: 225px!important;
+		margin: 5px auto!important;
+	}
+	.page_nasledstvo .img-nasl_a figure{
+		width: 225px!important;
+		border: 0!important;
+	}
+	.page_nasledstvo .img-nasl_a figcaption{
+		width: 225px!important;
+		margin: 5px auto!important;
+		padding: 5px 5px 0px 5px!important;
+		border: 0!important;
+		bottom: 0!important;
+	}
+	.parent_page-nasledstvo.page-child .notary_side_l,
+	.page_nasledstvo.page-parent .notary_side_l{
+		flex-basis: 290px!important;
+		-webkit-flex-basis: 290px!important;
+		padding: 0!important;
+		order: 1!important;
+	}
+	.parent_page-nasledstvo .entry-content p,
+	.parent_page-nasledstvo li{
+		font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 16px);
+	/*	font-size: 18px;*/
+	}
+	
+}
+
+/* new screen monitors and laptops */
+@media only screen and (min-width : 700px) and (max-width : 1000px){
+	.parent_page-nasledstvo .fixwrap,
+	.page_nasledstvo .fixwrap{
+		position: relative!important;
+		flex-wrap: nowrap!important;
+	}
+	/*
+	.parent_page-nasledstvo .img-nasl_a{
+		width: 225px!important;
+		margin: 5px auto!important;
+	}
+	.parent_page-nasledstvo .img-nasl_a figure{
+		width: 225px!important;
+		border: none;
+	}
+	.parent_page-nasledstvo .img-nasl_a figcaption{
+		width: 225px!important;
+		margin: 5px auto!important;
+		padding: 5px 5px 0px 5px!important;
+		border: none;
+		bottom: 0;
+	}
+	.parent_page-nasledstvo.page-child .notary_side_l,
+	.page_nasledstvo.page-parent .notary_side_l{
+		flex-basis: 290px!important;
+		padding: 0!important;
+		order: 1!important;
+	}
+	*/
+}
+@media only screen and (min-width : 300px) and (max-width : 699px){
+	.parent_page-nasledstvo .fixwrap,
+	.page_nasledstvo .fixwrap{
+		position: relative!important;
+		flex-wrap: wrap!important;
+	}
+	.parent_page-nasledstvo.page-child .notary_side_l,
+	.page_nasledstvo.page-parent .notary_side_l{
+		flex-basis: auto!important;
+		margin: 0 0 10px 0!important;
+		padding: 0!important;
+		order: 1!important;
+	}
+	.parent_page-yurist .stiky,
+	.parent_page-nasledstvo .stiky,
+	.page_nasledstvo .stiky{
+		position: inherit;
+		margin: 15px auto!important;
+		padding: 0!important;
+		flex-basis: auto!important;
+		-webkit-flex-basis: auto!important;
+	}
+	.parent_page-nasledstvo.page-child .bsciw,
+	.page_nasledstvo.page-parent .bsciw{
+		width: auto!important;
+		margin: auto!important;
+		padding: 10px!important;
+	}
+	.parent_page-nasledstvo .post-thumbnail{
+		float: none;
+		margin: 10px auto;
+	}
+	.parent_page-nasledstvo .entry-content p,
+	.parent_page-nasledstvo li{
+		font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 16px);
+	/*	font-size: 18px;*/
+	}
+	
+}
+
+/* new mobile */
+@media only screen and (orientation : portrait) and (min-width : 300px) and (max-width : 699px){
+	.parent_page-nasledstvo .fixwrap,
+	.page_nasledstvo .fixwrap{
+		position: relative!important;
+		flex-wrap: wrap!important;
+	}
+	.page_nasledstvo .img-nasl_a{
+		width: 250px!important;
+		margin: 5px auto!important;
+	}
+	.page_nasledstvo .img-nasl_a figure{
+		width: 250px!important;
+		border: 0!important;
+	}
+	.page_nasledstvo .img-nasl_a figcaption{
+		width: 250px!important;
+		margin: 5px auto!important;
+		padding: 5px 5px 0px 5px!important;
+		border: 0!important;
+		bottom: 0!important;
+	}
+	.parent_page-nasledstvo.page-child .notary_side_l,
+	.page_nasledstvo.page-parent .notary_side_l,
+	.parent_page-nasledstvo.page-child .notary_side_c,
+	.page_nasledstvo.page-parent .notary_side_c	{
+		flex-basis: auto!important;
+		margin: 0 0 10px 0!important;
+		padding: 0!important;
+		order: 1!important;
+	}
+	
+	.parent_page-nasledstvo .notary_side_c,
+	.page_nasledstvo .notary_side_c{
+	/*	flex-basis: auto!important; */
+	/*	margin: 0 0 10px 0!important;*/
+		padding: 0 10px 0 10px!important;
+	}
+	.parent_page-nasledstvo.page-child .ccttw,
+	.page_nasledstvo.page-parent .ccttw{
+	/*	outline: 1px dotted blue; */
+		margin: 0 0 0 0!important;
+		padding: 0px 10px 0px 10px!important;
+		width: auto!important;
+	}
+	
+	.parent_page-nasledstvo .page_published_wrapper,
+	.page_nasledstvo .page_published_wrapper	{
+		width: 100%!important;
+		margin: 0!important;
+		padding: 0!important;
+	}
+	.parent_page-nasledstvo .block_notary_wrapper,
+	.page_nasledstvo .block_notary_wrapper{
+		width: auto!important;
+		margin: 0!important;
+		padding: 0!important;
+	}
+	.parent_page-nasledstvo .article_heading H1,
+	.page_nasledstvo .article_heading H1{
+		padding: 20px 10px 20px 10px!important;
+		text-align: center;
+		font-size: calc( (100vw - 300px)/(1280 - 300) * (24 - 27) + 20px)!important;
+		font-weight: bold;
+		min-height: auto;
+	}
+	.page_nasledstvo .entry-content p,
+	.parent_page-nasledstvo .entry-content p{
+		margin: 0!important;
+		padding: 0!important;
+	}
+	.parent_page-nasledstvo .post-thumbnail{
+		float: none!important;
+		margin: 10px auto!important;
+	}	
+	.parent_page-nasledstvo .entry-content h2{
+		
+	}
+	.parent_page-nasledstvo .entry-content h3{
+		
+	}
+	.parent_page-nasledstvo .entry-content h4{
+		
+	}
+	.parent_page-nasledstvo .entry-content h5{
+		
+	}
+	.parent_page-nasledstvo .entry-content h6{
+		
+	}
+	.page_nasledstvo .entry-content p,
+	.page_nasledstvo li,
+	.parent_page-nasledstvo .entry-content p,
+	.parent_page-nasledstvo li{
+	/*	font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 16px)!important; */
+		font-size: calc( (100vw - 300px)/(1280 - 300) * (24 - 17) + 17px)!important;
+	/*	font-size: 18px;*/
+	}
+	.parent_page-nasledstvo.page-child .post-nasl,
+	.page_nasledstvo.page-parent .post-nasl{
+	/*	outline: 1px dotted blue; */
+		flex: 0 1 350px;
+	}
+	/* блок под меню Н */
+	.header_awh ul li a,
+	.header_aph ul li a,
+	.header_ao ul li a{
+	/*  outline: 1px solid red; */
+	/*	font-size: calc( (100vw - 300px)/(1280 - 300) * (24 - 17) + 17px)!important; */
+	    font-size: calc( (100vw - 300px)/(1280 - 300) * (24 - 27) + 27px)!important;
+	}
+	.header_awh ul,
+	.header_aph ul,
+	.header_ao ul{
+	/*	outline: 1px dotted red; */
+		margin: 0!important;
+		padding: 0!important;
+	/*	background: antiquewhite; */
+	}
+	.header_awh ul li,
+	.header_aph ul li,
+	.header_ao ul li{
+	/*	outline: 1px dotted red; */
+		margin: 10px 0 0 0!important;
+		padding: 0!important;
+		width: 100%;
+	/*	background: antiquewhite; */
+	}
+	.header_wrapper_row_time_search{
+	/*	outline: 1px dotted #FF9800;*/
+	}
+	.current-date-header-wrapper{
+	/*	outline: 1px solid blue; */
+	}
+	.header_time_time,
+	.header_time_date{
+	/*	outline: 1px solid blue; */
+		font-size: inherit;
+	}
+	.header_time_time{
+		width: 100%!important;
+	}
+	.header_time_date{
+		max-width: 100%!important;
+	}
+	/* блок под меню К */
+}
+
+
+
+@media only screen and (min-width : 300px) and (max-width : 800px){
+/* facebook */
+/* #fb-root{
+		display:none;
+	}
+	*/
+	.fb_reset{
+		display:none;
+	}
+}
+/*
+.parent_page-yurist .stiky, .parent_page-nasledstvo .stiky, .page_nasledstvo .stiky{
+	position: relative;
+	top:0;
+}
+*/
+@media only screen and (orientation : portrait) and (min-width : 200px) and (max-width : 2000px){
+
+.mct{display: none;}
+	.header_awh{
+	/*	flex: 0 1 300px; */
+		flex: auto;
+	}
+	.structure{
+		float: none!important;
+		margin: auto 10px!important;
+		width: auto!important;
+	}
+	.single-post .entry-content p img{
+		width: 300px;
+		height: auto;
+	}
+}
+
+@media only screen and (orientation : portrait) and (min-width : 300px) and (max-width : 700px){
+.entry-content blockquote, .rubricquote{
+	margin: 13px 0px 20px 10px;
+}
+.post-thumbnail{
+	width: 300px;
+    margin: auto;
+    float: none;
+}
+.kompred{
+    display: none;
+}    
+.header_description{
+    display: none;
+}
+#topcontrol{
+    bottom: 80px;
+}
+.wp-template, .wp-usage{
+/*  display: none; */
+}
+
+/* all containers */
+.container_footer, .container_content, .container_partners, .container_fbbuttons{width: 100%;}
+
+/* logo */
+.logo{padding: 0;}
+.logo a{
+    /* outline: 1px solid red; */
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+.logo a:before{
+        /* outline: 1px solid red; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 5px;
+    padding: 0;
+    width: 45px;
+    height: 50px;
+    background-position: center;
+}
+.logo_m{
+       display: none;
+    /* outline: 1px solid #fff; */
+    width: 100%;
+    height: 50px;
+    padding: 5px 0px 0 0px;
+    margin: 0;
+    position: relative;
+    z-index: 0; 
+}
+.header_wrapper_row_top {
+    display: none;
+}
+.mct{
+    display: block;
+}
+
+.mobile-menu{
+    height: 10%;
+}
+
+/* menu top */
+/* top menu */
+.container_topmenu{
+/*  outline: 1px solid orangered; */
+    height: 60px;
+    position: fixed;
+    top: 0;
+}
+.topmenu_wrapper{
+/*  outline: 1px solid orangered;
+    height: 60px;
+    position: fixed;
+    top: 0;
+*/}
+.header .container{
+    border: none;
+}
+
+/* mob_menu_odin */
+.mobile-menu .mob_menu_odin{
+    order: 1;
+}
+.mobile-menu .mob_menu_odin a,
+.mobile-menu .mob_menu_dva a,
+.mobile-menu .mob_menu_tri a{
+    text-align: center;
+}
+.mobile-menu .mob_menu_odin,
+.mobile-menu .mob_menu_dva,
+.mobile-menu .mob_menu_tri{
+    border: 1px solid #fff;
+    flex: 1 1 240px;
+    padding: 0;
+    text-transform: uppercase;
+/*  background: #ff7200; */
+/*  height: 39px; */
+}
+.menu_top_ul_class li{
+    margin:5px 5px 5px 5px;
+}
+.mobile-menu .mob_menu_chetire,
+.mobile-menu .mob_menu_pyat{
+    border: 1px solid #fff;
+    padding-top: 10px;
+    flex: 1 1 370px;
+    text-transform: uppercase;
+/*  background: #ff7200; */
+}
+.mobile-menu .mob_menu_chetire,
+.mobile-menu .mob_menu_pyat{
+/*  background: #ff7200; */
+    padding: 0;
+}
+.mobile-menu .mob_menu_dva{
+    order: 2;
+}
+.mobile-menu .mob_menu_tri{
+    order: 3;
+}
+.mobile-menu .mob_menu_chetire{
+    order: 4;
+}
+.mobile-menu .mob_menu_pyat{
+    order: 5;
+}
+/* test m for ipad */
+.mobile-menu .menu_top_ul_class{
+/*  outline: 1px solid; */
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+}
+.mobile-menu .sub-menu{
+    position: relative;
+/*  display: block; */
+    display: none;
+    box-shadow: none;
+/*  background: none; */
+/*  margin: 10px; */
+    top: 0;
+    padding: 0px 0px 0px 5px;
+    left: 0;
+    margin: 0;
+}
+.mobile-menu .menu_top_ul_class{
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: normal;
+    margin: 10px auto;
+    width: auto;
+    list-style-type: none;
+/*  font-size: initial; */
+}
+.mobile-menu .menu_top_ul_class li a{
+    height: auto;
+    color: #fff;
+    padding: 5px;
+    background: none;
+    color: #FFF;
+}
+.mobile-menu .sub-menu li a{
+    text-transform: uppercase;
+    letter-spacing: 1
+}
+.sub-menu .sub-menu li a {
+    text-transform: none;
+}
+
+/* mobile-menu */
+#menu_top_ul_id{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+/*  display: block;*/
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.mobile-menu {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 10px 0px 60px;
+    top: 0;
+    background: #4266b2;
+    left: 0;
+    right: 0;
+    height: 60px;
+}
+.mobile-menu__btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 30px;
+  cursor: pointer;
+  transition: .4s;
+}
+.mobile-menu__icon {
+  display: block;
+  position: relative;
+  background-color: #ffffff;
+  width: 90%;
+  height: 4px;
+  transition: .4s;
+}
+.mobile-menu__icon::after, .mobile-menu__icon::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  height: 4px;
+  transition: .4s;
+}
+.mobile-menu__icon::after {
+  top: 8px;
+}
+.mobile-menu__icon::before {
+  top: -8px;
+}
+.menu_top_nav_class {
+    position: fixed;
+    display: flex;
+    align-items: baseline;
+/*  justify-content: center; */
+    top: 50px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    height: 0;
+    opacity: 1;
+    transition: .5s;
+    overflow: hidden;
+    background-color: #4266b2;
+}
+.mobile-menu__list {
+  transition: .5s;
+  list-style: none;
+  padding-left: 0;
+  margin-top: -50px;
+}
+.mobile-menu__item {
+  font-size: 26px;
+  padding-bottom: 15px;
+}
+.mobile-menu__link {
+  text-decoration: none;
+  color: #fff;
+}
+.mobile-menu__checkbox {
+  display: none;
+}
+.mobile-menu__checkbox:checked ~ .mobile-menu__nav {
+    opacity: 1;
+}
+.mobile-menu__checkbox:checked ~ .menu_top_nav_class {
+/*  outline: 1px solid; */
+    height: 100%;
+    overflow: scroll;
+    top: 60px;
+}
+.mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon {
+    background: transparent;
+}
+.mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon::before, .mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon::after {
+    top: 0;
+}
+.mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon::after {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon::before {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.mobile-menu .sub-menu li a{
+    text-transform: uppercase;
+/*  font-size: 5vw; */
+}
+.sub-menu .sub-menu li a {
+    text-transform: none;
+    padding: 0px 0px 0px 5px;
+    border-bottom: none;
+}
+/* test menu K*/
+
+/* contact */
+.header_wrapper_row_adress{
+    padding: 35px 0 0 0;
+}
+.mct_none{display: none;}
+.header_awh li{margin: 10px 0 0 0;padding: 0;}
+.header_awh li:last-child:before{
+    top: 3px;
+}
+.header_awh li:last-child:hover:before{
+    top: 6px;
+}
+.header_awh ul, .header_aph ul, .header_ao ul,.header_awh li,.header_awh li a{width:100%;}
+.header_awh ul li a,
+.header_aph ul li a,
+.header_ao ul li a{
+    margin: auto;
+/*  font-size: 10vw; */
+    line-height: 1.5;
+}
+.header_awh ul li a{padding: 0px 0px 0px 40px;}
+.header_awh li:first-child:before{content: none;}
+.header_aph, .header_ao/*,.header_wrapper_row_time_search*/{display: none;}
+.header_wrapper_row_time_search{
+/*  outline: 1px solid red; */
+}
+.header_header_time_search_wrapper{
+/*  outline: 1px solid red; */
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    align-items: center;
+/*  justify-content: center; */
+    justify-content: flex-end;
+    width: 100%;
+}
+.current-date-header-wrapper{
+/*  outline: 1px solid blue; */
+    width: 100%;
+    margin: 5px auto;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    align-items: center;
+/*  justify-content: center; */
+    justify-content: flex-end;
+}
+.header_time_time,.header_time_date{
+    padding: 0;
+/*  font-size: 5.5vw; */
+}
+.header_time_time p,.header_time_date p{text-align: center;}
+.header_social-menu2, .widget-search{
+    max-width: 100%;
+}
+.header_social-menu2{
+/*  outline: 1px solid gray; */
+    margin: auto;
+    padding: 20px 10px 10px 10px;
+    min-width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+/*	background: linear-gradient(to top, #fff 70%, transparent); */
+	background: linear-gradient(0deg, rgba(254,254,254,1) 0%, rgba(255,255,255,1) 70%, rgba(254,254,254,0.3029586834733894) 100%);
+}
+.header_social-navigation a{
+/*    width: 35px;
+    height: 35px;
+*/
+    width: 45px;
+    height: 45px;
+}
+.header_social-navigation a:before{
+    filter:none;
+}
+.menu-socz-seti-container{
+    justify-content: center;
+}
+.search-field{
+    padding: 5px;
+}
+
+/* front slider */
+.page-template-default .f_bl-a{
+    width: 100%;
+    margin: 10px auto;
+}
+#slideshow{
+    width: 100%;
+    height: 250px;
+}
+#slideshow .container{
+    width: 350px;
+    height: 200px;
+}
+#slideshow figure{
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+.home figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+#slideshow figcaption{
+    padding: 10px;
+}
+.home figcaption h1{
+    font-size: 21px;
+    line-height: 1;
+}
+#timeline{display: none;}
+.dots_commands{
+    top:15px;
+}
+.figcaption_aksii{
+    width: 100%;
+/*  font-size: 3vw; */
+    font-size: 9vw;
+/*  background: #ffffff6b; */
+    background: linear-gradient(to bottom, #ffffff8a, transparent);
+    box-shadow: none;
+    border: none;
+}
+
+/* block_promo_wrapper */
+.fp{
+    min-width: 100%;
+}
+.hint li{
+/*  font-size: 7.5vw; */
+}
+.hint li::before{
+	left: -9px;
+}
+.hint p, .fp a, .fp h2, .fp h3{
+/*  font-size: 5.5vw; */
+}
+.fp a{
+/*  font-size: 8vw; */
+/*  color: #ff7200; */
+}
+.fp a:before, .fp a:after{
+    content: none;
+}
+.fp p:nth-of-type(1){
+    color: #ff7200;
+/*  font-size: 5vw; */
+}
+.f_bl-c, .home .f_bl-c{
+    width: 100%;
+}
+.f_bsciw{
+    margin: 15px auto;
+}
+.f_block_sidebar_bureau_news p, .f_block_sidebar_bureau_news a{
+/*  font-size: 6.5vw; */
+}
+.f_publ_bl_post{
+    flex: auto;
+}
+.f_publ_img{
+    margin: auto;
+}
+
+/* content (article) */
+/* magic_close */
+.magic_close {
+    width: 100%;
+}
+.magic, .magic_close:hover .magic{
+    display: none;
+}
+.magic p, .magic_close p{
+    margin: 30px auto;
+    height: auto!important;
+}
+.magic_close h2, .magic h2{
+/*  font-size: 7.5vw; */
+}
+
+/* breadcrumbs */
+#breadcrumbs{
+    padding: 0;
+}
+
+/* img size */
+.wp-block-image .aligncenter,
+.wp-block-image .alignleft,
+.wp-block-image .alignright,
+.wp-block-image .is-resized{
+    width: 200px;
+}
+.single_img{
+    width: 280px;
+    float: none;
+    margin: 10px auto;   
+}
+.my-error404,
+.single .post-thumbnail{
+    float: none;
+    width: auto;   
+}
+.content-taxonomy .post-thumbnail{
+    border: 1px solid #dbd8d9;
+    box-shadow: none;
+}
+
+/* font-size */
+.f_bshpe p{
+/*  font-size: 6vw; */
+}
+.f_bshph h1{
+/*  font-size: 7vw; */
+}
+/* all post + page h1 */
+.search .page_published_wrapper .article_heading H1,
+.search-results .page_published_wrapper .article_heading H1,
+.page_published_wrapper .article_heading H1,
+.archive .article_heading H1,
+.category .article_heading H1,
+.sud_wrapper .article_heading H1,
+.block_zags_wrapper .article_heading H1,
+.block_taxonomy_notary_wrapper h1{
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+/*  font-size: 5.5vw; */
+    min-height: auto;
+}
+.content-taxonomy .article_heading H1,
+.content_single_post .article_heading h1,
+.doc_blank_wrapper .article_heading h1,
+.doc_blank_wrapper .header-blank-docs h1{
+   padding: 20px 10px 20px 10px; 
+}
+.archive .ccttw,
+.category .ccttw,
+.content_single_post .article_heading h1{
+    margin: 10px 0 30px 0;
+}
+.content-taxonomy .article_heading H1,
+.block_article_publication_header H1,
+.archive_post_header_wrapper h1,
+.content_single_post .article_heading h1,
+.doc_blank_wrapper .article_heading h1,
+.doc_blank_wrapper .header-blank-docs h1,
+.content_bureau_news .cbn h1,
+.search-result-block-header h2,
+.error404{
+/*  font-size: 6vw; */
+   line-height: 1.3;
+   letter-spacing: normal;
+}
+.error404 .mct_logo,
+.error404 .mct a{
+	line-height: 1;
+}
+.zagolovok{
+    min-height: auto;
+}
+.cbn h1:before{
+    top: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;  
+}
+
+
+/* all page */
+.doc_blank_wrapper,
+.main-blank .article_information,
+.single .content_single_post,
+.post-template-single-bureau-news-php .content_bureau_news,
+.single-uslugi .content-taxonomy,
+.tax-ocenka .content-taxonomy,
+.tax-expertiza .content-taxonomy,
+.tax-services .content-taxonomy,
+.page_citizens .content-taxonomy,
+.page_business .content-taxonomy,
+.page_nezexpert .content-taxonomy,
+.page_nezocenka .content-taxonomy,
+.page_estimate .content-taxonomy,
+.page_expertise .content-taxonomy{
+    margin: 10px auto;
+}
+
+.single-uslugi .notary_side_c,
+.tax-ocenka .notary_side_c,
+.tax-expertiza .notary_side_c,
+.tax-services .notary_side_c,
+.page_citizens .notary_side_c,
+.page_business .notary_side_c,
+.page_nezexpert .notary_side_c,
+.page_nezocenka .notary_side_c,
+.page_estimate .notary_side_c,
+.page_expertise .notary_side_c,
+.post-template-single-bureau-news-php .f_bl-c,
+.archive .notary_side_c,
+.category .notary_side_c,
+.single .notary_side_c,
+.page-child .notary_side_l,
+.page-child .notary_side_c,
+.page-parent .notary_side_l,
+.page-parent .notary_side_c,
+.page-template-page-zags-msk .notary_side_c,
+.page-template-page-documents-docs .notary_side_c,
+.page-template-spravka_msk_sud .notary_side_c,
+.page-template-page-template-sud .notary_side_c,
+.page-template-spravka_as_sud .notary_side_c,
+.error404 .notary_side_c{
+    width: 100%;
+    flex-basis: auto;
+    -webkit-flex-basis: auto;  
+}
+.site-main {
+    padding: 0;
+}
+.entry-content p, .entry-content li{
+/*  font-size: 6vw;  */  
+}
+.entry-content ul{
+    padding: 0px 0px 0px 0px;
+}
+
+/* uslugi */
+#all-uslugi{
+    margin: auto; 
+}
+.tax-ocenka .content-taxonomy,
+.tax-expertiza .content-taxonomy,
+.tax-services .content-taxonomy,
+.page_citizens .content-taxonomy,
+.page_business .content-taxonomy,
+.page_nezexpert .content-taxonomy,
+.page_nezocenka .content-taxonomy,
+.page_estimate .content-taxonomy,
+.page_expertise .content-taxonomy{
+    width: 100%;
+}
+.post-type-archive-uslugi .notary_side_l,
+.post-type-archive-uslugi .notary_side_r,
+.post-type-archive-uslugi .notary_side_b,
+.page_business .notary_side_r,
+.page_citizens .notary_side_r,
+.page_estimate .notary_side_r,
+.page_expertise .notary_side_r,
+.tax-ocenka .notary_side_r,
+.tax-expertiza .notary_side_r{
+    display: none;
+}
+.tdtop p,
+.uslugi-li a,
+.uslugi_term li a{
+/*  font-size: 5.5vw; */
+    display: block;
+    width: auto;
+}
+.taxonomy_uslugi_wrapper h2 a{
+    text-indent: 0;
+/*  font-size: 5.5vw; */
+    text-align: center;
+}
+.taxonomy_uslugi_wrapper_wrapper{
+    margin: auto;
+}
+.uslugi_term li a:hover,
+.uslugi_term li a{
+    width: 100%;
+}
+.uslugi-li a:nth-last-child(2){
+    display: none;
+}
+.uslugi_term{
+    padding: 0px 0px 0px 20px;
+}
+.single-uslugi .notary_side_r{
+    display: none;
+}
+.single-uslugi .f_bl-b{
+    padding: 0px 10px;
+}
+.entry-taxonomy-content .bsb{
+    width: auto;
+    margin: 10px 0px 10px 20px;
+}
+.single-uslugi .zakaz{
+    background: #ff7200;
+}
+.entry-taxonomy-content-tag{
+/*  outline: 1px solid red; */
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.termwrapper,
+.entry-taxonomy-content-tag .zakaz{
+    margin: 5px;
+    padding: 0;    
+}
+.entry-taxonomy-content-tag .zakaz{
+    margin: 5px 0px 25px 0px;
+    padding: 0;    
+}
+.entry-taxonomy-content-tag .zakaz a{
+    text-align: center;
+}
+.termwrapper,
+.zakaz{
+    width: 100%;
+    flex: 1 1 auto;
+}
+.entry-taxonomy-content-tag a:hover{
+    color:#fff;
+}
+.bsb:hover{
+    box-shadow: 3px 3px 3px #8e8e8e;
+}
+
+
+/* calendar */
+#wp-calendar{
+    display: block;
+}
+.wp-calendar-table{
+    width: 100%;
+}
+#wp-calendar thead tr th{
+    padding: 5px 5px 5px 5px;
+}
+.wp-calendar-nav{
+    width: 100%;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+}
+.wp-calendar-nav-prev,
+.wp-calendar-nav-next{
+/*  outline: 1px dotted; */
+    flex: 1 1 auto;
+}
+.wp-calendar-nav-prev a,
+.wp-calendar-nav-next a{
+    display: block;
+    padding: 10px 0 10px 0;
+}
+.wp-calendar-nav-prev{
+    text-align: left;
+}
+.wp-calendar-nav-next{
+    text-align: right;
+}
+
+/* search + error404 */
+.error404 .page_published_wrapper,
+.search .page_published_wrapper,
+.search-results .page_published_wrapper{
+    margin: 10px auto;
+} 
+.search .entry-content,
+.search-result-block-primary-wrapper,
+.search-results .entry-content ul,
+.search-results .entry-content li{
+    margin: 0;
+    padding: 0;
+}
+.search-result-block-header h2{
+    text-align: center;
+}
+.my-error404-text,
+.sw-none{
+    padding: 0; 
+}
+.sphi{
+    float: none;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    padding: 0;
+    left: 0;
+    right: 0; 
+}
+.my-error404-text,
+.search-page-title{
+    width: 100%;
+    float: none;
+/*  font-size: 7vw; */
+}
+.search-form-results label{
+    width: 100%; 
+}
+.search-form-results{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.search-field,
+.search-field-results,
+.search-submit-results{
+    flex: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 5px auto; 
+}
+.error_search{
+    margin: 15px auto;
+}
+
+/* content bureau news */
+.post-template-single-bureau-news-php .notary_side_c{
+    padding: 0;
+}
+.post-template-single-bureau-news-php .site-main{
+    padding: 0px 10px;
+}
+.post-template-single-bureau-news-php .f_bsciw{
+    width: auto;
+    margin: 15px 5px 30px 5px;
+}
+.content_bureau_news .cbn h1{
+    min-height: auto;
+    padding: 85px 10px 10px 10px;
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+
+/* category + arhive */
+.labels-stati-description p{
+    text-align: center;
+}
+.block_article_publication_header H1,
+.taxonomy_tag_wrapper .ttbch h1,
+.archive_post_header_wrapper h1{
+    margin: 5px auto;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    line-height: initial;
+    font-style: normal;
+    font-family: Helvetica, 'Times', Garamond, sans-serif;
+}
+.block_article_publication H1::before,
+.block_article_publication_header H1::before,
+.block_article_publication H1:after,
+.block_article_publication_header H1:after{
+    content: none;
+}
+.block_article_publication_paragraph p,
+#archive_post_excerpt_wrapper p{
+    word-break: break-all;
+/*  font-size: 6vw; */
+}
+.category .notary_side_r{
+    display: none;
+}
+.archive .ccttw,
+.category .ccttw{
+    width: auto;
+    margin: 10px 10px 30px 10px;
+    flex-basis: auto;
+    -webkit-flex-basis: auto; 
+}
+.archive .notary_side_l,
+.category .notary_side_l{
+    order: 2;
+}
+.archive .notary_side_c,
+.category .notary_side_c{
+    order: 1;
+}
+.archive .notary_side_l,
+.category .notary_side_l,
+.archive .notary_side_c,
+.category .notary_side_c{
+    flex-basis: auto;
+    width: 100%; 
+}
+.archive_post_wrapper,
+.block_article_publication_wrapper,
+.taxonomy_tag_wrapper,
+.ttbcwrap,
+. ttbctpwrap1{
+/*  outline: 1px solid red; */
+    float: none;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: center;
+}
+#archive_post_links_wrapper,
+.archive_post_thumbnail_wrapper,
+.wrapper_thumbnail_post,
+.blockttwr{
+    width: 100%;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+.pt_st{
+    margin: auto;
+}
+#archive_post_links_category,
+.block_article_publication_header{
+    width: 100%;
+}
+#archive_post_links_farther{
+    margin: 0;
+    padding: 0;
+}
+#archive_post_links_wrapper div:last-child{
+    border: none;
+    padding: 0;
+}
+#archive_post_links_farther,
+#archive_post_links_category,
+.block_article_publication_wrapper .block_article_publication_category,
+.block_article_publication_wrapper .block_article_publication_href{
+/*  outline: 1px solid; */
+    float: none;
+    flex: 1 1 auto;
+    margin: 5px;
+    padding: 0;    
+}
+#archive_post_links_farther,
+.block_article_publication_href{
+    order: 1;
+}
+#archive_post_links_category,
+.block_article_publication_category{
+    order: 2;
+}
+.tax-mylabel .ttbch{
+    background: #ebebeb;
+    margin: 0px 0px 10px 0px;
+}
+.tax-mylabel .ttbch h1 a{
+    display: block;
+    padding: 10px 0 10px 0;
+}
+.ttbch h1 a:hover{
+    background: none;
+}
+.ttbceu1 a,
+#archive_post_links_farther a,
+.block_article_publication_href a{
+    display: block;
+    background: #ebebeb;
+    margin: auto;
+    padding: 5px;
+}
+.ttbceu1 a:hover{
+    margin: auto;
+    padding: 5px;
+}
+.taxonomy_tag_wrapper{
+    margin: 15px auto;
+    padding: 0;  
+}
+.ttbce{
+    margin: 5px auto;
+}
+.tax-mylabel .block_sidebar_category li a,
+.tax-mylabel .ttbce p,
+.entry-taxonomy-content p,
+.entry-taxonomy-content-tag a,
+.n-mbflu-class li a,
+li{
+/*  font-size: 5.5vw;   */ 
+}
+.ttbce p{
+    width: 100%;
+    word-break: break-all;
+    margin: 0;
+    padding: 0;
+}
+.taxonomy_tag_wrapper .ttbch h1{
+    text-align: center;
+}
+.ttbch h1::before,
+.ttbch h1::after{
+    content: none;
+}
+
+/* link achive + category */
+#archive_post_links_category p,
+.block_article_publication_category p{
+    text-align: left;
+}
+
+/* pagination */ 
+.nav-links{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* page contact */
+.page_contact .notary_side_r{
+    display: none;
+}
+.all-wrapper{
+   flex-basis: auto;
+   -webkit-flex-basis: auto;
+}
+.cohaw{
+   width: 100%; 
+}
+.cohw{
+    
+}
+.tctoyv p{
+    text-align: center;
+}
+.map_contact h2{
+/*  font-size: 8vw; */
+}
+.map_contact p{
+/*  font-size: 6vw; */
+}
+
+/* page_information */
+.page_information .f_bl-a{
+    margin: 15px auto;
+    padding: 0;
+}
+.article-inform{
+    width: 100%;
+}
+.class-m-inf li{
+    flex: 1 1 auto;
+    flex-basis: auto;
+    -webkit-flex-basis: auto;
+}
+
+/* blanks */
+#legalum{
+    margin: 10px;
+}
+.header-blank-docs{
+    margin: 10px;
+}
+.anchor{
+    width: 100%;
+    margin: 15px auto;
+}
+.block_article_obrazcy_dokumentov_doc ol,
+.block_article_obrazcy_dokumentov_doc_children ol{
+    margin: auto;
+    padding: 0;
+}
+.block_article_obrazcy_dokumentov_doc li,
+.block_article_obrazcy_dokumentov_doc_children li{
+    margin: auto;
+    padding: 0;
+}
+.block_article_obrazcy_dokumentov_doc ol li ul{
+    margin: 5px 0px 0px 0px;
+}
+.block_article_obrazcy_dokumentov_doc_children ol li a{
+/*  font-size: 5vw; */
+}
+table{display: none;}
+
+/* page-template-page-template-sud-php */
+.page-template-page-template-sud-php{
+    
+}
+.sud_wrapper{
+    margin: 10px auto;
+    padding: 0 10px 0 10px;
+}
+.sud_section_article_promo{
+    
+}
+.sud_promo, .arrow{
+    width: 100%;
+}
+.bdc-thumbnail.court{
+    width: 100%;
+    margin: 5px auto;
+}
+
+/* page-template-spravka_as_sud */
+.promo{
+    float: none;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#page_block_court_link.papbcl{
+    float: none;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%
+}
+.block_img{
+    float: none;
+    margin: 10px auto;
+}
+
+/* zags */
+.block_zags_wrapper{
+    padding: 0px 10px 0px 10px;  
+}
+.zags-thumbnail-wrapper{
+    width: 100%;
+    margin: 0 0 20px 0px; 
+}
+.zags-thumbnail{
+    width: 220px;
+    margin: 15px auto;
+}
+
+/* notary msk */
+.archive_notary_mosobl a::before,
+.archive_notary_msk a::before{
+    filter: none;
+}
+.single-notary .notary_side_c,
+.single-notary .notary_side_l{
+    flex-basis: auto;
+    width: 100%;
+}
+.single-notary .notary_side_l{
+    order: 2;
+}
+.single-notary .notary_side_c{
+    order: 1;
+}
+.single-notary #legalum{
+    margin: 10px auto; 
+}
+.page_published_wrapper{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.ecow{
+    border: none;
+}
+.article_heading_notary h1, .article_heading_notary_obl h1{
+    margin: 70px 0 0 0;
+    padding: 10px 10px 10px 10px;
+}
+.article_heading_notary h1::before,
+.article_heading_notary_obl h1::before{
+    width: 40px;
+    top: -65px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.block_taxonomy_notary_wrapper{
+    width: 100%;
+    margin: 10px 15px 10px 0px;
+    padding: 0 10px 0 10px; 
+}
+.pacmw{
+    margin: 10px 15px 10px 0px;
+    padding: 0 10px 0 10px; 
+}
+.page_notary_navi{
+    display: none;
+}
+
+/* sidebar left */
+.notary_side_r{
+    flex-basis: auto;
+    -webkit-flex-basis: auto;
+    width: 100%;
+    margin: auto;
+}
+.bsciw{
+    margin: 10px auto;
+    width: 95%;
+}
+.block_sidebar_news p,
+.block_sidebar_news li a{
+/* font-size: 6vw; */
+}
+
+/* sidebar right */
+/* spravka Menu */
+.bsci li br{
+    display: none;
+}
+
+/* random (интересные статьи) */
+.notary_side_b{
+    width: 100%
+}
+.notary_publication_random{
+    width: 100%;
+}
+.notary_publication_random ul{
+    width: 100%; 
+}
+.notary_publication_random ul li{
+    margin: 10px;
+    flex: 1 1 auto;
+    flex-basis: auto;
+    -webkit-flex-basis: auto;
+    width: 280px;
+}
+.notary_publication_random ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: normal;
+    max-width: 100%;
+    height: 100%;
+}
+
+/* footer */
+
+/* menu bottom */
+.n-mbflu-class li a{
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+.n-mbflu-class .sub-menu li a{
+    color: gray;
+}
+.fb1, .fb3{
+    display: none;
+}
+.fb2{
+    padding-bottom: 50px;
+}
+
+/* yandex share */
+.ya-share2__list{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    flex-direction: row;    
+    -webkit-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ya-share2__link{
+    margin: 5px;
+}
+.ya-share2__list li{
+/*  margin: 5px; */
+/*  outline: 1px solid; */
+    flex: 1 1 auto;
+}
+.comeback{
+    margin: 10px auto;
+}
+.ya-share2__container_size_m .ya-share2__icon{
+    height: 35px;
+    width: 35px;
+    background-size: 35px 35px;
+}
+.ya-share2__badge{
+    filter: none;
+}
+.ya-share2__item_service_twitter{order: 1;}
+.ya-share2__item_service_skype{order: 2;}
+.ya-share2__item_service_moimir{order: 3;}
+.ya-share2__item_service_odnoklassniki{order: 4;}
+.ya-share2__item_service_viber{order: 5;}
+.ya-share2__item_service_vkontakte{order: 6;}
+.ya-share2__item_service_facebook{order: 7;}
+.ya-share2__item_service_whatsapp{order: 8;}
+
+
+}
+
+@media only screen and (orientation : portrait) and (min-width : 320px) and (max-width : 650px){
+    /* font-size */
+    /* header */
+
+    .tax-mylabel .block_sidebar_category li a,
+    .tax-mylabel .ttbce p,
+    .entry-taxonomy-content p,
+    .entry-taxonomy-content-tag a,
+    .n-mbflu-class li a,
+    li{
+    /*  font-size: 4.5vw; */
+    }
+    
+    /* img size */
+    .pt_st .post-thumbnail{
+        margin: auto;
+    }
+    .wp-block-image .aligncenter,
+    .wp-block-image .alignleft,
+    .wp-block-image .alignright,
+    .wp-block-image .is-resized{
+        margin: 10px auto;
+        float: none;
+    }
+    .wp-block-image .aligncenter,
+    .wp-block-image .alignleft,
+    .wp-block-image .alignright,
+    .wp-block-image .is-resized,
+    .pt_st .post-thumbnail img,
+    .f_publ_img{
+        width: 260px;
+    }
+    .f_publ_img{
+        height: 150px;
+    } 
+    
+
+}
+@media only screen and (orientation : portrait) and (min-width : 370px) and (max-width : 680px){
+    /* font-size */
+    /* header */
+    .n-mbflu-class .sub-menu li a{
+    /*  font-size: 4.5vw; */
+    }
+    .hint li,
+    .f_bshpe p,
+    .f_block_sidebar_bureau_news p,
+    .f_block_sidebar_bureau_news a{
+    /*  font-size: 5.5vw; */
+    }
+    .tax-mylabel .block_sidebar_category li a,
+    .tax-mylabel .ttbce p,
+    .entry-taxonomy-content p,
+    .entry-taxonomy-content-tag a,
+    .n-mbflu-class li a,
+    li{
+    /*  font-size: 3.7vw; */
+    }
+    
+    /* img size */
+    .pt_st .post-thumbnail{
+        margin: auto;
+    }
+    .wp-block-image .aligncenter,
+    .wp-block-image .alignleft,
+    .wp-block-image .alignright,
+    .wp-block-image .is-resized{
+        margin: 10px auto;
+        float: none;
+    }
+    .wp-block-image .aligncenter,
+    .wp-block-image .alignleft,
+    .wp-block-image .alignright,
+    .wp-block-image .is-resized,
+    .pt_st .post-thumbnail img,
+    .f_publ_img{
+        width: 300px;
+    }
+    .f_publ_img{
+        height: 150px;
+    } 
+    
+}
+
+@media only screen and (orientation : portrait) and (min-width : 380px) and (max-width : 420px){
+
+/* front slider */
+.page-template-default .f_bl-a{
+    width: 100%;
+    margin: 10px auto;
+}
+#slideshow{
+    width: 100%;
+    height: 300px;
+}
+#slideshow .container{
+    width: 340px;
+    height: 250px;
+}
+#slideshow figure{
+    width: 340px;
+    height: 250px;
+    overflow: hidden;
+}
+.home figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+#slideshow figcaption{
+    padding: 10px;
+}
+.home figcaption h1{
+    font-size: 21px;
+    line-height: 1;
+}
+#timeline{display: none;}
+.dots_commands{
+    top:15px;
+}
+.figcaption_aksii{
+    width: 100%;
+    font-size: 9vw;
+    background: linear-gradient(to bottom, #ffffff8a, transparent);
+}    
+    
+.header_description{
+        display: none;
+    }
+.mobile-menu__item {
+  font-size: 26px;
+  padding-bottom: 15px;
+}
+.mobile-menu .sub-menu li a{
+    text-transform: uppercase;
+    font-size: 5vw;
+}
+.header_awh ul li a,
+.header_aph ul li a,
+.header_ao ul li a{
+    margin: auto;
+    font-size: 10vw;
+    line-height: 1.5;
+}
+.header_time_time,.header_time_date{
+    padding: 0;
+    font-size: 5.5vw;
+}
+
+.hint li{
+    font-size: 7.5vw;
+}
+.hint p, .fp a, .fp h2, .fp h3{
+    font-size: 5.5vw;
+}
+.fp a{
+    font-size: 8vw;
+/*  color: #ff7200; */
+}
+.fp p:nth-of-type(1){
+    color: #ff7200;
+    font-size: 5vw;
+}
+.f_block_sidebar_bureau_news p, .f_block_sidebar_bureau_news a{
+    font-size: 6.5vw;
+}
+.magic_close h2, .magic h2{
+    font-size: 7.5vw;
+}
+/* font-size */
+.f_bshpe p{
+   font-size: 6vw; 
+}
+.f_bshph h1{
+    font-size: 7vw;
+}
+/* all post + page h1 */
+.search .page_published_wrapper .article_heading H1,
+.search-results .page_published_wrapper .article_heading H1,
+.page_published_wrapper .article_heading H1,
+.archive .article_heading H1,
+.category .article_heading H1,
+.sud_wrapper .article_heading H1,
+.block_zags_wrapper .article_heading H1,
+.block_taxonomy_notary_wrapper h1{
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+/*  font-size: 5.5vw; */
+    min-height: auto;
+}
+.content-taxonomy .article_heading H1,
+.block_article_publication_header H1,
+.archive_post_header_wrapper h1,
+.content_single_post .article_heading h1,
+.doc_blank_wrapper .article_heading h1,
+.doc_blank_wrapper .header-blank-docs h1,
+.content_bureau_news .cbn h1,
+.search-result-block-header h2,
+.error404{
+   font-size: 6vw;
+   line-height: 1.3;
+   letter-spacing: normal;
+}
+.entry-content p, .entry-content li{
+    font-size: 6vw;    
+}
+.tdtop p,
+.uslugi-li a,
+.uslugi_term li a{
+    font-size: 5.5vw;
+    display: block;
+    width: auto;
+}
+.taxonomy_uslugi_wrapper h2 a{
+    text-indent: 0;
+    font-size: 5.5vw;
+    text-align: center;
+}
+.my-error404-text,
+.search-page-title{
+    width: 100%;
+    float: none;
+    font-size: 7vw;
+}
+.block_article_publication_paragraph p,
+#archive_post_excerpt_wrapper p{
+    word-break: break-all;
+    font-size: 6vw;
+}
+.tax-mylabel .block_sidebar_category li a,
+.tax-mylabel .ttbce p,
+.entry-taxonomy-content p,
+.entry-taxonomy-content-tag a,
+.n-mbflu-class li a,
+li{
+    font-size: 5.5vw;    
+}
+.map_contact h2{
+    font-size: 8vw;
+}
+.map_contact p{
+    font-size: 6vw;
+}
+
+
+
+/* page_information */
+.block_article_obrazcy_dokumentov_doc_children ol li a{
+    font-size: 5vw;
+}
+/* notary msk */
+.article_heading_notary h1, .article_heading_notary_obl h1{
+    margin: 70px 0 0 0;
+    padding: 10px 10px 10px 10px;
+    font-size: 7.5vw;
+}
+
+/* sidebar left */
+.block_sidebar_news p,
+.block_sidebar_news li a{
+    font-size: 6vw;
+}
+
+/* sidebar right */
+/* spravka Menu */
+.bsci li{
+/*  font-size: 6vw; */
+}
+
+/* footer */
+
+/* menu bottom */
+
+}
+@media only screen and (orientation : portrait) and (min-width : 360px) and (max-width : 380px){
+
+    /* front slider */
+.page-template-default .f_bl-a{
+    width: 100%;
+    margin: 10px auto;
+}
+#slideshow{
+    width: 100%;
+    height: 300px;
+}
+#slideshow .container{
+    width: 300px;
+    height: 250px;
+}
+#slideshow figure{
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+}
+.home figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+#slideshow figcaption{
+    padding: 10px;
+}
+.home figcaption h1{
+    font-size: 21px;
+    line-height: 1;
+}
+#timeline{display: none;}
+.dots_commands{
+    top:15px;
+}
+.figcaption_aksii{
+    width: 100%;
+    font-size: 9vw;
+    background: linear-gradient(to bottom, #ffffff8a, transparent);
+}    
+   
+    
+    .header_description{
+        display: none;
+    }
+.mobile-menu__item {
+  font-size: 26px;
+  padding-bottom: 15px;
+}
+.mobile-menu .sub-menu li a{
+    text-transform: uppercase;
+    font-size: 5vw;
+}
+.header_awh ul li a,
+.header_aph ul li a,
+.header_ao ul li a{
+    margin: auto;
+    font-size: 10vw;
+    line-height: 1.5;
+}
+.header_time_time,.header_time_date{
+    padding: 0;
+    font-size: 5.5vw;
+}
+.hint li{
+    font-size: 7.5vw;
+}
+.hint li::before{
+	left: -9px;
+}
+.hint p, .fp a, .fp h2, .fp h3{
+    font-size: 5.5vw;
+}
+.fp a{
+    font-size: 8vw;
+/*  color: #ff7200; */
+}
+.fp p:nth-of-type(1){
+    color: #ff7200;
+    font-size: 5vw;
+}
+.f_block_sidebar_bureau_news p, .f_block_sidebar_bureau_news a{
+    font-size: 6.5vw;
+}
+.magic_close h2, .magic h2{
+    font-size: 7.5vw;
+}
+/* font-size */
+.f_bshpe p{
+   font-size: 6vw; 
+}
+.f_bshph h1{
+    font-size: 7vw;
+}
+/* all post + page h1 */
+.search .page_published_wrapper .article_heading H1,
+.search-results .page_published_wrapper .article_heading H1,
+.page_published_wrapper .article_heading H1,
+.archive .article_heading H1,
+.category .article_heading H1,
+.sud_wrapper .article_heading H1,
+.block_zags_wrapper .article_heading H1,
+.block_taxonomy_notary_wrapper h1{
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+/*  font-size: 5.5vw; */
+    min-height: auto;
+}
+.content-taxonomy .article_heading H1,
+.block_article_publication_header H1,
+.archive_post_header_wrapper h1,
+.content_single_post .article_heading h1,
+.doc_blank_wrapper .article_heading h1,
+.doc_blank_wrapper .header-blank-docs h1,
+.content_bureau_news .cbn h1,
+.search-result-block-header h2,
+.error404{
+   font-size: 6vw;
+   line-height: 1.3;
+   letter-spacing: normal;
+}
+.entry-content p, .entry-content li{
+    font-size: 6vw;    
+}
+.tdtop p,
+.uslugi-li a,
+.uslugi_term li a{
+    font-size: 5.5vw;
+    display: block;
+    width: auto;
+}
+.taxonomy_uslugi_wrapper h2 a{
+    text-indent: 0;
+    font-size: 5.5vw;
+    text-align: center;
+}
+.my-error404-text,
+.search-page-title{
+    width: 100%;
+    float: none;
+    font-size: 7vw;
+}
+.block_article_publication_paragraph p,
+#archive_post_excerpt_wrapper p{
+    word-break: break-all;
+    font-size: 6vw;
+}
+.tax-mylabel .block_sidebar_category li a,
+.tax-mylabel .ttbce p,
+.entry-taxonomy-content p,
+.entry-taxonomy-content-tag a,
+.n-mbflu-class li a,
+li{
+/*  font-size: 5.5vw; */    
+}
+.map_contact h2{
+    font-size: 8vw;
+}
+.map_contact p{
+    font-size: 6vw;
+}
+
+/* page_information */
+.block_article_obrazcy_dokumentov_doc_children ol li a{
+    font-size: 5vw;
+}
+/* notary msk */
+.article_heading_notary h1, .article_heading_notary_obl h1{
+    margin: 70px 0 0 0;
+    padding: 10px 10px 10px 10px;
+    font-size: 7.5vw;
+}
+
+/* sidebar left */
+.block_sidebar_news p,
+.block_sidebar_news li a{
+    font-size: 6vw;
+}
+
+/* sidebar right */
+/* spravka Menu */
+.bsci li{
+/*  font-size: 6vw; */
+}
+
+/* footer */
+
+/* menu bottom */
+
+}
+@media only screen and (orientation : portrait) and (min-width : 320px) and (max-width : 360px){
+    .header_description{
+        display: none;
+    }
+.mobile-menu__item {
+  font-size: 26px;
+  padding-bottom: 15px;
+}
+.mobile-menu .sub-menu li a{
+    text-transform: uppercase;
+    font-size: 5vw;
+}
+.header_awh ul li a,
+.header_aph ul li a,
+.header_ao ul li a{
+    margin: auto;
+    font-size: 10vw;
+    line-height: 1.5;
+}
+.header_time_time,.header_time_date{
+    padding: 0;
+    font-size: 5.5vw;
+}
+
+/* front slider */
+.page-template-default .f_bl-a{
+    width: 100%;
+    margin: 10px auto;
+}
+#slideshow{
+    width: 100%;
+    height: 200px;
+}
+#slideshow .container{
+    width: 250px;
+    height: 150px;
+}
+#slideshow figure{
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+}
+.home figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+.home figcaption h1{
+    font-size: 21px;
+    line-height: 1;
+}
+#timeline{display: none;}
+.dots_commands{
+    top:15px;
+}
+.figcaption_aksii{
+    width: 100%;
+/*  font-size: 3vw; */
+/*  font-size: 5.5vw; */
+/*  background: #ffffff6b; */
+    background: linear-gradient(to bottom, #ffffff8a, transparent);
+    box-shadow: none;
+    border: none;
+}
+
+
+.hint li{
+    font-size: 7.5vw;
+}
+.hint li::before{
+	left: -9px;
+}
+.hint p, .fp a, .fp h2, .fp h3{
+    font-size: 5.5vw;
+}
+.fp a{
+    font-size: 8vw;
+/*  color: #ff7200; */
+}
+.fp p:nth-of-type(1){
+    color: #ff7200;
+    font-size: 5vw;
+}
+.f_block_sidebar_bureau_news p, .f_block_sidebar_bureau_news a{
+    font-size: 6.5vw;
+}
+.magic_close h2, .magic h2{
+    font-size: 7.5vw;
+}
+/* font-size */
+.f_bshpe p{
+   font-size: 6vw; 
+}
+.f_bshph h1{
+    font-size: 7vw;
+}
+/* all post + page h1 */
+.search .page_published_wrapper .article_heading H1,
+.search-results .page_published_wrapper .article_heading H1,
+.page_published_wrapper .article_heading H1,
+.archive .article_heading H1,
+.category .article_heading H1,
+.sud_wrapper .article_heading H1,
+.block_zags_wrapper .article_heading H1,
+.block_taxonomy_notary_wrapper h1{
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+/*  font-size: 5.5vw; */
+    min-height: auto;
+}
+.content-taxonomy .article_heading H1,
+.home figcaption h1,
+.block_article_publication_header H1,
+.archive_post_header_wrapper h1,
+.content_single_post .article_heading h1,
+.doc_blank_wrapper .article_heading h1,
+.doc_blank_wrapper .header-blank-docs h1,
+.content_bureau_news .cbn h1,
+.search-result-block-header h2,
+.error404{
+   font-size: 6vw;
+   line-height: 1.3;
+   letter-spacing: normal;
+}
+.error404 .mct_logo,
+.error404 .mct a{
+	line-height: 1;
+}
+.entry-content p, .entry-content li{
+    font-size: 6vw;    
+}
+.tdtop p,
+.uslugi-li a,
+.uslugi_term li a{
+    font-size: 5.5vw;
+    display: block;
+    width: auto;
+}
+.taxonomy_uslugi_wrapper h2 a{
+    text-indent: 0;
+    font-size: 5.5vw;
+    text-align: center;
+}
+.my-error404-text,
+.search-page-title{
+    width: 100%;
+    float: none;
+    font-size: 7vw;
+}
+.block_article_publication_paragraph p,
+#archive_post_excerpt_wrapper p{
+    word-break: break-all;
+    font-size: 6vw;
+}
+.tax-mylabel .block_sidebar_category li a,
+.tax-mylabel .ttbce p,
+.entry-taxonomy-content p,
+.entry-taxonomy-content-tag a,
+.n-mbflu-class li a,
+li{
+/*  font-size: 5.5vw;     */
+}
+.map_contact h2{
+    font-size: 8vw;
+}
+.map_contact p{
+    font-size: 6vw;
+}
+
+/* page_information */
+.block_article_obrazcy_dokumentov_doc_children ol li a{
+    font-size: 5vw;
+}
+/* notary msk */
+.article_heading_notary h1, .article_heading_notary_obl h1{
+    margin: 70px 0 0 0;
+    padding: 10px 10px 10px 10px;
+    font-size: 7.5vw;
+}
+
+/* sidebar left */
+.block_sidebar_news p,
+.block_sidebar_news li a{
+    font-size: 6vw;
+}
+
+/* sidebar right */
+/* spravka Menu */
+.bsci li{
+/*  font-size: 6vw; */
+}
+
+/* footer */
+
+/* menu bottom */
+
+}
+@media only screen and (orientation : portrait) and (min-width : 300px) and (max-width : 320px){
+
+/* front slider */
+
+#slideshow figcaption{
+    padding: 10px;
+}
+.home figcaption h1{
+    font-size: 21px;
+    line-height: 1;
+}
+#timeline{display: none;}
+.dots_commands{
+    top:15px;
+}
+.figcaption_aksii{
+    width: 100%;
+    font-size: 9vw;
+    background: linear-gradient(to bottom, #ffffff8a, transparent);
+}    
+    
+.header_description{
+        display: none;
+    }
+.mobile-menu__item {
+  font-size: 26px;
+  padding-bottom: 15px;
+}
+.mobile-menu .sub-menu li a{
+    text-transform: uppercase;
+    font-size: 5vw;
+}
+.header_awh ul li a,
+.header_aph ul li a,
+.header_ao ul li a{
+    margin: auto;
+    font-size: 10vw;
+    line-height: 1.5;
+}
+.header_time_time,.header_time_date{
+    padding: 0;
+    font-size: 5.5vw;
+}
+
+.hint li{
+    font-size: 7.5vw;
+}
+.hint p, .fp a, .fp h2, .fp h3{
+    font-size: 5.5vw;
+}
+.fp a{
+    font-size: 8vw;
+/*  color: #ff7200; */
+}
+.fp p:nth-of-type(1){
+    color: #ff7200;
+    font-size: 5vw;
+}
+.f_block_sidebar_bureau_news p, .f_block_sidebar_bureau_news a{
+    font-size: 6.5vw;
+}
+.magic_close h2, .magic h2{
+    font-size: 7.5vw;
+}
+/* font-size */
+.f_bshpe p{
+   font-size: 6vw; 
+}
+.f_bshph h1{
+    font-size: 7vw;
+}
+/* all post + page h1 */
+.search .page_published_wrapper .article_heading H1,
+.search-results .page_published_wrapper .article_heading H1,
+.page_published_wrapper .article_heading H1,
+.archive .article_heading H1,
+.category .article_heading H1,
+.sud_wrapper .article_heading H1,
+.block_zags_wrapper .article_heading H1,
+.block_taxonomy_notary_wrapper h1{
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    font-size: 23px;
+    min-height: auto;
+}
+.content-taxonomy .article_heading H1,
+.block_article_publication_header H1,
+.archive_post_header_wrapper h1,
+.content_single_post .article_heading h1,
+.doc_blank_wrapper .article_heading h1,
+.doc_blank_wrapper .header-blank-docs h1,
+.content_bureau_news .cbn h1,
+.search-result-block-header h2,
+.error404{
+   font-size: 6vw;
+   line-height: 1.3;
+   letter-spacing: normal;
+}
+.error404 .mct_logo,
+.error404 .mct a{
+	line-height: 1;
+}
+.entry-content p, .entry-content li{
+    font-size: 6vw;    
+}
+.tdtop p,
+.uslugi-li a,
+.uslugi_term li a{
+    font-size: 5.5vw;
+    display: block;
+    width: auto;
+}
+.taxonomy_uslugi_wrapper h2 a{
+    text-indent: 0;
+    font-size: 5.5vw;
+    text-align: center;
+}
+.my-error404-text,
+.search-page-title{
+    width: 100%;
+    float: none;
+    font-size: 7vw;
+}
+.block_article_publication_paragraph p,
+#archive_post_excerpt_wrapper p{
+    word-break: break-all;
+    font-size: 6vw;
+}
+.tax-mylabel .block_sidebar_category li a,
+.tax-mylabel .ttbce p,
+.entry-taxonomy-content p,
+.entry-taxonomy-content-tag a,
+.n-mbflu-class li a,
+li{
+/*  font-size: 5.5vw; */    
+}
+.map_contact h2{
+    font-size: 8vw;
+}
+.map_contact p{
+    font-size: 6vw;
+}
+
+/* page_information */
+.block_article_obrazcy_dokumentov_doc_children ol li a{
+    font-size: 5vw;
+}
+/* notary msk */
+.article_heading_notary h1, .article_heading_notary_obl h1{
+    margin: 70px 0 0 0;
+    padding: 10px 10px 10px 10px;
+    font-size: 7.5vw;
+}
+
+/* sidebar left */
+.block_sidebar_news p,
+.block_sidebar_news li a{
+    font-size: 6vw;
+}
+
+/* sidebar right */
+/* spravka Menu */
+.bsci li{
+/*  font-size: 6vw; */
+}
+
+/* footer */
+
+/* menu bottom */
+
+}
+
+
+/*  24.1 @media screen monitors and laptops
+------------------------------------------------------------------------------*/
+@media only screen and (min-width : 800px) and (max-width : 1200px){
+    /*
+    .container{
+     padding: 50px 10px 0px 10px;   
+    }
+    */
+    /* font size */
+.header_social-navigation a:before{
+/*  filter:none; */
+}
+/* menu spravka*/
+.block_sidebar_news li a, .bsci li a{
+    font-size: 1.6vw;
+}
+.arrow ul li a{
+    font-size: 1.8vw;
+}
+.block_zags_wrapper .zags-thumbnail-wrapper p small{
+    font-size: initial;
+}
+	
+/* interest */
+.main-blank p{
+    font-size: 1.8vw
+}
+
+/* front slider */
+.figcaption_aksii{
+    font-size: 3vw;
+}
+
+/* entry-content */
+	
+/* obrazci doc */
+.block_article_obrazcy_dokumentov_doc ol li ul li a{
+    font-size: 1.5vw;
+}
+.f_bshpe p{
+    font-size: 1.8vw;
+}
+	
+/* header menu */
+.logo{/*outline: 1px solid #fff;*/}
+.logo a:before, .logo a{/*outline: 1px solid red;*/}
+.header_wrapper_row_top{
+/*  outline: 1px solid white; */
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 55px;
+}
+/*
+.header_description{
+/ *  outline: 1px solid white; * /
+    margin: 0;
+    padding: 10px 0px 10px 10px;
+    width: 77%;
+    height: auto;
+    position: relative;
+    right: 0;
+    flex: none;
+    float: right;
+    color: #fff;
+    text-align: right;
+}
+*/
+.site-description{
+    text-align: right;
+    color: #afafaf;
+    padding: 0px 10px 0px 50px;
+}
+.header_wrapper_menutop{/*outline: 1px solid #fff;*/}
+
+/* header job time and call */
+.header_awh ul, .header_aph ul, .header_ao ul{margin: 5px 0px 5px 0px;}
+.header_awh{flex: 1 0 590px;}
+.header_awh ul {width: 100%;}
+.header_aph{flex: 1 1 auto;}
+.header_aph ul li{margin: auto;}
+.header_social-menu2{min-width: auto;}	
+	
+/* all section page */
+.notary-template .notary_side_c,
+.single .notary_side_c{
+    width: 68%;
+}
+.date .notary_side_c,
+.page-template-default .f_bl-a,
+.error404 .notary_side_c,
+.post-template-single-bureau-news-php .notary_side_c,
+.single-uslugi .notary_side_c,
+.tax-ocenka .notary_side_c,
+.tax-expertiza .notary_side_c,
+.tax-services .notary_side_c,
+.page_citizens .notary_side_c,
+.page_business .notary_side_c,
+.page_nezexpert .notary_side_c,
+.page_estimate .notary_side_c,
+.page_expertise .notary_side_c,
+.page_nezocenka .notary_side_c,
+.search .f_bl-a,
+.f_bl-c{
+    width: 68%;
+}
+
+/* page contact */
+.djc, .tjc{flex-basis: auto;flex: 1 1 155px;}
+.cohaw{width: auto;font-size: 1.8vw;}
+.djc{text-align: right;}
+.cdotwaoh div:nth-last-of-type(1){text-align: left;}
+.cohaw h3{font-size: 2.5vw;}
+.date_job, .time_job{flex-basis: auto;}
+.date_job span, .time_job span{font-size: 2.1vw;}
+.entry-content .cd p{font-size: 2.1vw;}
+	
+	
+/* taxonomy uslugi + ocenka + expertiza */
+.page_nezexpert .notary_side_c,
+.page_estimate .notary_side_c,
+.page_expertise .notary_side_c,
+.page_nezocenka .notary_side_c{
+    flex-basis:auto;
+}
+.content-taxonomy{
+    width:100%;
+}
+
+.tax-services .bapti img,
+.tax-ocenka .bapti img,
+.tax-expertiza .bapti img,
+.page_business .bapti img,
+.page_citizens .bapti img,
+.page_expertise .bapti img,
+.page_estimate .bapti img,
+.page_nezexpert .bapti img,
+.page_nezocenka .bapti img{filter: none;}
+	
+.post-template-single-bureau-news-php .f_bl-c{width: 25%;}
+.doc_blank_wrapper,
+.main-blank .article_information,
+.page-parent .article_information,
+.notary_side_c .article_information,
+.search .f_bl-a {width: 100%;}
+.tdbutton a{color: #336699;border: 1px solid #dedede;box-shadow: 2px 3px 3px #dedede;text-decoration: none;}
+.post-type-archive-uslugi .notary_side_l,
+.post-type-archive-uslugi .notary_side_r,
+.post-type-archive-uslugi .notary_side_b{display:none;}
+.post-type-archive-uslugi .n-mbflu{padding: 10px 0px 10px 0px;}
+.post-type-archive-uslugi #all-uslugi{padding:0;}
+.post-type-archive-uslugi .n-mbflu-class li{flex: 1 1 400px;}
+	
+.tax-services .article_heading H1,
+.tax-expertiza .article_heading H1,
+.tax-ocenka .article_heading H1{padding: 20px 10px 20px 80px;}
+
+/* СЃРїРёСЃРєРё */
+.hint-ios-orange li::before{
+	color:#ff7200;
+	}
+.hint li::before{
+/* outline: 1px solid gray; */
+    content: '\2714';
+    position: absolute;
+    top: 0;
+    left: -6px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: rgb(255, 165, 0);
+		
+}
+.doc_blank_wrapper .entry-content{padding:0px;}
+.entry-content ol, .entry-content ul {margin: 10px 20px 10px 0px;}
+
+/* news bureu */
+.post-template-single-bureau-news-php .f_bsciw{
+/* outline: 1px dotted blue; */
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+}
+.f_block_sidebar_bureau_news a{font-size: 1.8vw;}
+.f_bsciw{margin: 0px 8px 20px 0px;padding: 10px;box-shadow: 1px 1px 3px grey;background: #fff;}
+.f_block_sidebar_bureau_news{margin: 10px 10px 0px 10px;}
+.f_news_bureau{border: none;flex: none;margin: 0;padding: 0;box-shadow: none;background: none;}
+.f_block_sidebar_bureau_news ul{display: initial;-webkit-flex-wrap: initial;-webkit-flex-direction: initial;display: initial;flex-direction: initial;flex-wrap: initial;justify-content: normal;align-items: normal;}
+	
+/* newpublication */
+.f_publ_bl_post{flex: 1 1 220px;}
+.f_publ_img{margin: 0 auto;display: block;}
+
+
+/* category + tag */
+.tag .site-main, .category .site-main{-webkit-flex-wrap: nowrap; flex-wrap: nowrap;}
+.tag .notary_side_c,
+.category .notary_side_c{flex-basis: 600px;}
+
+/*.category .notary_side_c{flex-basis: 444px;}*/
+.category .notary_side_r{display: block;}
+.ccttw{
+    width: 100%;
+}
+.wrapper_thumbnail_post{flex-wrap: wrap;-webkit-flex-wrap: wrap;}
+
+.pt_st{
+    margin: auto;
+    flex: 0 1 250px;
+}
+.archive_post_excerpt_wrapper{
+    flex: 1 1 250px; 
+}
+.pt_st .archive_thumbnail,
+.pt_st .post-thumbnail{
+    margin: auto;
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+}
+.pt_st .post-thumbnail img{width: 100%;height: 100%;object-fit: cover;}
+.block_article_publication_category p{text-align: left;}
+
+/* tax-mylabel */
+.tax-mylabel .notary_side_c{
+    flex-basis: auto;
+    width: 42%;
+}
+.tax-mylabel .blockttwr{-webkit-flex-wrap: wrap;flex-wrap: wrap;justify-content: center;}
+.tax-mylabel .notary_side_l,
+.tax-mylabel .notary_side_r{position: relative;float: left;}
+.tax-mylabel .notary_side_c{position: relative;float: right;}
+
+/* archive */
+.date .notary_side_c{
+    flex-basis: auto;
+}
+.date .archive_post_thumbnail_wrapper{
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* notary */
+.archive_notary_mosobl a::before, .archive_notary_msk a::before{filter: none;}
+.tax-mosobl .notary_side_c, .tax-msk .notary_side_c{flex-basis: auto;width: 68%;}
+.page_published_wrapper,.block_category_representative_wrapper{width: 100%; margin: 0;}
+.page_published_wrapper {margin: auto;}
+.block_category_representative_wrapper{margin: 10px auto;}
+.cbnc{max-width: 100%;margin: auto;}
+.ecow, .ecowline {border-bottom: none;border-image: none;border-image-slice: initial;}
+.article_heading_notary h1, .article_heading_notary_obl h1{padding: 20px 20px 20px 80px;}
+
+/* zags */
+.page-parent .notary_side_l{/*width: 75%;*/}
+.page-parent .f_bl-c{/*width: 75%;*/}
+.page-template-spravka_as_sud .notary_side_c,
+.page-template-spravka_msk_sud .notary_side_c,
+.page-child .notary_side_c,
+.page-parent .notary_side_c{flex-basis: auto;width:68%;}
+.block_article_zags ol li{flex: 1 1 auto;flex-basis: 225px;-webkit-flex-basis: 225px;}
+.sud_promo, .arrow {margin: 0 auto;width: auto;}
+
+/* sud */
+.sud_wrapper {width:100%;}
+.arrow ul li a:before{content: '\21D3';position: absolute;top: 3px;left: -10px;margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;color: #4267b2;}
+
+/* page information */
+.page_information .f_bl-a {
+    /* outline: 1px solid #2196F3; */
+    order: 1;
+    width: 71.5%;
+}
+.page_information .article-inform{width: 100%;flex: 1 1 260px;}
+.page_information .article_heading H1{padding-bottom: 30px;}
+.page_information .f_bl-c {/* outline: 1px solid #2196F3; */order: 2; width: 260px;}
+
+/* single uslugi */
+/*.single-uslugi .notary_side_r{display: none;}*/
+
+/* footer */
+.n-mbflu-class li{flex: 1 1 360px;}
+.fb1{display: none;}
+.fb2, .fb3{width: 100%;}
+.n-mbflu-class li a{color: #336699;color: white;text-shadow: 1px 1px 3px black;}
+.n-mbflu-class .sub-menu li a{color: gray;}
+
+/* zakaz */
+.entry-taxonomy-content-footer .bsb a{background: #4266b2;}
+.bsb a{background: #ff7200;}
+
+}
+
+
+/* iPad in portrait */
+@media only screen and (orientation : portrait) and (min-width : 768px) and (max-width : 1024px){
+    .header_header_time_search_wrapper{
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;   
+    } 
+    .header_social-menu2{
+        width: auto;  
+    }
+    
+    .widget-search{
+        padding-top: 10px;
+        max-width: 100%;
+        flex: 1 1 auto;
+    }
+    .search-field{
+        max-width: 100%;
+    }
+    .date_job_court,
+    .time_job_court,
+    .rh_date_judge,
+    .rh_time_judge{
+        flex: 1 1 200px;
+    }
+}
+@media only screen and (orientation : portrait) and (min-width : 768px) and (max-width : 1024px) {
+    .header .container{
+        padding: 50px 10px 0px 10px;
+    }
+    .current-date-header-wrapper,
+    .header_social-menu2,
+    .widget-search{
+    /*  outline: 1px dotted blue; */
+    }    
+    .header_social-menu2{
+        width: auto;  
+    }
+    .menu-socz-seti-container{
+        padding-bottom: 3px;
+    }
+    .widget-search{
+        padding:0;
+        max-width: 100%;
+        flex: 1 1 auto;
+        align-items: center;
+        display: flex;
+    }
+    .widget-search section{
+        width: 100%;
+    }
+    .search-field{
+        padding: 1px;
+        max-width: 100%;
+    }
+    .date_job_court,
+    .time_job_court,
+    .rh_date_judge,
+    .rh_time_judge{
+        flex: 1 1 200px;
+    }
+    .header_time_time{
+        width: 160px;
+        flex: 1 0 160px;
+    }
+    .header_social-navigation a:before{
+        filter:none;
+    }
+    
+/* mob_menu_odin */
+.mobile-menu .mob_menu_odin{
+    order: 1;
+}
+.mobile-menu .mob_menu_odin a,
+.mobile-menu .mob_menu_dva a,
+.mobile-menu .mob_menu_tri a
+{text-align: center;}
+.mobile-menu .mob_menu_odin,
+.mobile-menu .mob_menu_dva,
+.mobile-menu .mob_menu_tri{
+ border: 1px solid #fff;
+    flex: 1 1 240px;
+    padding: 10px;
+    text-transform: uppercase;
+/*  background: #ff7200; */
+/*  height: 39px; */
+}
+.menu_top_ul_class li{
+    margin:5px 5px 5px 5px;
+}
+.mobile-menu .mob_menu_chetire,
+.mobile-menu .mob_menu_pyat{
+    border: 1px solid #fff;
+    padding-top: 10px;
+    flex: 1 1 370px;
+    text-transform: uppercase;
+/*  background: #ff7200; */
+}
+.mobile-menu .mob_menu_chetire,
+.mobile-menu .mob_menu_pyat{
+/*  background: #ff7200; */
+}
+.mobile-menu .mob_menu_dva{
+    order: 2;
+}
+.mobile-menu .mob_menu_tri{
+    order: 3;
+}
+.mobile-menu .mob_menu_chetire{
+    order: 4;
+}
+.mobile-menu .mob_menu_pyat{
+    order: 5;
+}
+/* test m for ipad */
+.mobile-menu .menu_top_ul_class{
+/*  outline: 1px solid; */
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+}
+.mobile-menu .sub-menu{
+    position: relative;
+    display: block;
+    box-shadow: none;
+/*  background: none; */
+/*  margin: 10px; */
+    top: 0;
+    padding: 0;
+    left: 0;
+    margin: 0;
+}
+.mobile-menu .menu_top_ul_class{
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: normal;
+    margin: 10px auto;
+    width: auto;
+    list-style-type: none;
+    font-size: initial;
+}
+.mobile-menu .menu_top_ul_class li a{
+    height: auto;
+    color: #fff;
+    padding: 5px;
+    background: none;
+    color: #FFF;
+}
+.mobile-menu .sub-menu li a{
+    text-transform: uppercase;
+}
+.sub-menu .sub-menu li a {
+    text-transform: none;
+    padding: 0px 0px 0px 5px;
+    border-bottom: none;
+}
+
+/* .mobile-menu */
+#menu_top_ul_id{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+/*  display: block;*/
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.mobile-menu {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 16px;
+    top: 0;
+    background-color: #4266b2;
+    left: 0;
+    right: 0;
+    height: 60px;
+    z-index: 9999999;
+}
+.mobile-menu__btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 30px;
+  cursor: pointer;
+  transition: .4s;
+}
+.mobile-menu__icon {
+  display: block;
+  position: relative;
+  background-color: #ffffff;
+  width: 90%;
+  height: 4px;
+  transition: .4s;
+}
+.mobile-menu__icon::after, .mobile-menu__icon::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  height: 4px;
+  transition: .4s;
+}
+.mobile-menu__icon::after {
+  top: 8px;
+}
+.mobile-menu__icon::before {
+  top: -8px;
+}
+.menu_top_nav_class {
+    position: fixed;
+/*  text-align: center; */
+    display: flex;
+    align-items: baseline;
+/*  justify-content: center; */
+    top: 50px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    height: 0;
+    opacity: 1;
+    transition: .5s;
+    overflow: hidden;
+    background-color: #4266b2;
+}
+.mobile-menu__list {
+  transition: .5s;
+  list-style: none;
+  padding-left: 0;
+  margin-top: -50px;
+}
+.mobile-menu__item {
+  font-size: 26px;
+  padding-bottom: 15px;
+}
+.mobile-menu__link {
+  text-decoration: none;
+  color: #fff;
+}
+.mobile-menu__checkbox {
+  display: none;
+}
+.mobile-menu__checkbox:checked ~ .mobile-menu__nav {
+  opacity: 1;
+}
+.mobile-menu__checkbox:checked ~ .menu_top_nav_class {
+  height: 100%;
+}
+.mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon {
+  background: transparent;
+}
+.mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon::before, .mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon::after {
+  top: 0;
+}
+.mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon::after {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon::before {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+/*
+.menu_top_nav_class ul li ul li a{
+    background: none;
+    color: #FFF;
+}
+*/
+
+/* test menu K*/
+    
+/* menu spravka*/
+.block_sidebar_news li a, .bsci li a{font-size: 1.6vh;}
+.arrow ul li a{font-size: 1.8vh;}
+/* interest */
+.main-blank p{
+    font-size: 2.2vh;
+}
+.block_zags_wrapper .zags-thumbnail-wrapper p small{font-size: initial;}
+
+/* front slider */
+.figcaption_aksii{
+    font-size: 3vw;
+}
+
+/* entry-content */
+.entry-content p {font-size: 1.8vh;}
+	
+/* header menu */
+.logo{
+/*  outline: 1px solid #fff; */
+    position: fixed;
+    z-index: 99999999;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+.logo a{
+/*  outline: 1px solid red; */
+    position: relative;
+    display: block;
+    width: 360px;
+    margin: 5px;
+    padding: 0;
+}
+.logo a:before{
+/*  outline: 1px solid red; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;    
+    width: 45px;
+    height: 50px;
+    background-position: center;
+}
+.logo_m{
+    position: relative;
+    left: 10px;
+    margin: 0 auto;
+}
+.container_top{background: none;}
+.header_logomirror{display: none;}
+.header_wrapper_row_top{
+/*  outline: 1px solid white;*/
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 55px;
+}
+.header_description{
+    display: none;
+}
+.header_wrapper_menutop{outline: 1px solid #fff;}
+
+/* header job time and call */
+.header_awh ul, .header_aph ul, .header_ao ul{margin: 5px 0px 5px 0px;}
+.header_awh{flex: 1 0 590px;}
+.header_awh ul {width: 100%;}
+.header_aph{flex: 1 1 auto;}
+.header_aph ul li{margin: auto;}
+.header_social-menu2{min-width: auto;}
+
+/* all section page */
+.post-template-default .notary_side_c{width: 100%;}
+.single .notary_side_c{width: 70.5%;}
+.single-post .notary_side_c,
+.notary-template .notary_side_c{width: 60%;}
+.tag .notary_side_c,
+.category .notary_side_c,
+.page-parent .notary_side_c,
+.page-child .notary_side_c,
+.page-court .notary_side_c,
+.arcnot_c,
+.tax-mosobl .notary_side_c,
+.tax-msk .notary_side_c{flex-basis: auto;width: 60%;}
+.error404 .notary_side_c,
+.post-template-single-bureau-news-php .f_bl-c,
+.post-template-single-bureau-news-php .notary_side_c,
+.single-uslugi .notary_side_c,
+.tax-ocenka .notary_side_c,
+.tax-expertiza .notary_side_c,
+.tax-services .notary_side_c,
+.page_citizens .notary_side_c,
+.page_business .notary_side_c,
+.page_nezexpert .notary_side_c,
+.page_nezocenka .notary_side_c,
+.search .f_bl-a,
+.page-template-default .f_bl-a,
+.home .f_bl-c{width: 100%;}
+.doc_blank_wrapper,
+.main-blank .article_information,
+.page-parent .article_information{width: 100%;}
+
+/* page contact */
+.djc, .tjc{flex-basis: auto;flex: 1 1 155px;}
+.djc{text-align: right;}
+.cdotwaoh div:nth-last-of-type(1){text-align: left;}
+.cohaw{width: auto;font-size: 1.8vh;}
+.cohaw h3{font-size: 2.5vh;}
+.date_job, .time_job{flex-basis: auto;}
+.date_job span, .time_job span{font-size: 2.1vh;}
+.entry-content .cd p{font-size: 2.1vh;}
+	
+/* taxonomy uslugi + ocenka + expertiza */
+.page-template-default .notary_side_r,
+.post-type-archive-uslugi .notary_side_l,
+.post-type-archive-uslugi .notary_side_r,
+.post-type-archive-uslugi .notary_side_b{display:none;}
+
+.page_nezexpert .notary_side_c,
+.page_estimate .notary_side_c,
+.page_expertise .notary_side_c,
+.page_nezocenka .notary_side_c{flex-basis:auto;}
+.content-taxonomy{width:100%;}
+
+.tax-services .notary_side_r, 
+.page_business .notary_side_r,
+.page_citizens .notary_side_r,
+.page_estimate .notary_side_r,
+.page_expertise .notary_side_r,
+.tax-ocenka .notary_side_r,
+.tax-expertiza .notary_side_r{display: block;flex-basis:auto;width: 100%;}
+
+.tax-services .bsciw,
+.tax-ocenka .bsciw,
+.tax-expertiza .bsciw,
+.page_business .bsciw,
+.page_citizens .bsciw,
+.page_expertise .bsciw,
+.page_estimate .bsciw,
+.page_nezexpert .bsciw,
+.page_nezocenka .bsciw{width: 100%;margin: auto;}
+
+.tax-services .block_sidebar_news .title H1,
+.tax-ocenka .block_sidebar_news .title H1,
+.tax-expertiza .block_sidebar_news .title H1,
+.page_business .block_sidebar_news .title H1,
+.page_citizens .block_sidebar_news .title H1,
+.page_expertise .block_sidebar_news .title H1,
+.page_estimate .block_sidebar_news .title H1,
+.page_nezexpert .block_sidebar_news .title H1,
+.page_nezocenka .block_sidebar_news .title H1{text-align: left;}
+
+.tax-services .aksii,
+.tax-ocenka .aksii,
+.tax-expertiza .aksii,
+.page_business .aksii,
+.page_citizens .aksii,
+.page_expertise .aksii,
+.page_estimate .aksii,
+.page_nezexpert .aksii,
+.page_nezocenka .aksii{order: 1;flex: 1 1 200px;width: 100%;}
+
+/*.block_sidebar_news li a, .bsci li a, .block_category_representative p*/
+.tax-services .block_sidebar_news li a,
+.tax-ocenka .block_sidebar_news li a,
+.tax-expertiza .block_sidebar_news li a,
+.page_business .block_sidebar_news li a,
+.page_citizens .block_sidebar_news li a,
+.page_expertise .block_sidebar_news li a,
+.page_estimate .block_sidebar_news li a,
+.page_nezexpert .block_sidebar_news li a,
+.page_nezocenka .block_sidebar_news li a{/*outline: 1px solid;*//*width: 100%;*/width: 94.5%;/*padding-left: 20px;*/display: -webkit-inline-flex;display: inline-flex;flex-wrap: nowrap;-webkit-flex-wrap: nowrap;flex-direction: row;-webkit-flex-direction: row;justify-content: flex-start;align-items: stretch;font-size: 2.7vh;}
+
+.tax-services .block_sidebar_news li::before,
+.tax-ocenka .block_sidebar_news li::before,
+.tax-expertiza .block_sidebar_news li::before,
+.page_business .block_sidebar_news li::before,
+.page_citizens .block_sidebar_news li::before,
+.page_expertise .block_sidebar_news li::before,
+.page_estimate .block_sidebar_news li::before,
+.page_nezexpert .block_sidebar_news li::before,
+.page_nezocenka .block_sidebar_news li::before{top: 17px;background: url(../image/tick.png) no-repeat 0 0;}
+
+.tax-services .bapti,
+.tax-ocenka .bapti,
+.tax-expertiza .bapti,
+.page_business .bapti,
+.page_citizens .bapti,
+.page_expertise .bapti,
+.page_estimate .bapti,
+.page_nezexpert .bapti,
+.page_nezocenka .bapti{order: 2;flex: 0 1 200px;flex-basis: 200px;}
+
+.tax-services .bapti img,
+.tax-ocenka .bapti img,
+.tax-expertiza .bapti img,
+.page_business .bapti img,
+.page_citizens .bapti img,
+.page_expertise .bapti img,
+.page_estimate .bapti img,
+.page_nezexpert .bapti img,
+.page_nezocenka .bapti img{filter: none;}
+
+.page_nezexpert .notary_side_r,
+.page_estimate .notary_side_r,
+.page_expertise .notary_side_r,
+.page_nezocenka .notary_side_r{flex-basis:auto;width:100%;}
+.page_nezexpert .bsciw,
+.page_estimate .bsciw,
+.page_expertise .bsciw,
+.page_nezocenka .bsciw{width:100%;margin: auto;}
+
+.page_nezexpert .block_sidebar_news,
+.page_estimate .block_sidebar_news,
+.page_expertise .block_sidebar_news,
+.page_nezocenka .block_sidebar_news{margin: 0;padding: 0;box-shadow: none;background: none;}
+.tdbutton a{color: #336699;border: 1px solid #dedede;box-shadow: 2px 3px 3px #dedede;text-decoration: none;}
+
+.post-type-archive-uslugi .n-mbflu{padding: 10px 0px 10px 0px;}
+.post-type-archive-uslugi #all-uslugi{padding:0;}
+.tax-services .article_heading H1,
+.page_expertise .article_heading H1,
+.tax-ocenka .article_heading H1{padding: 20px 10px 20px 80px;}
+
+
+/* СЃРїРёСЃРєРё */
+.hint li::before{
+/* outline: 1px solid gray; */
+    content: '\2714';
+    position: absolute;
+    top: 0;
+    left: -6px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: rgb(255, 165, 0);
+}
+.doc_blank_wrapper .entry-content{padding:0px;}
+.entry-content ol, .entry-content ul {margin: 10px 20px 10px 0px;}
+
+/* news bureu */
+.post-template-single-bureau-news-php .f_bsciw, .f_bsciw{width: 100%;margin: 20px 0px 20px 0px;padding: 0;box-shadow: none;background: none;}
+.f_publ_bl_post:hover, .f_bsciw:hover{border-radius: none;box-shadow: none;/*  transition: .5s ease-in-out; */}
+.f_block_sidebar_bureau_news{margin: 0px 0px 30px 0px;}
+.f_block_sidebar_bureau_news ul{
+/*.f_publ*/
+/*  outline: 1px solid #8805ff; */
+    display: -webkit-inline-flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 10px;
+/* .f_publ */
+}
+.f_bshpe p{font-size: 1.8vh;}
+.f_news_bureau{/*border: 1px solid #dadada;*/flex: 1 1 400px;margin: 15px 5px 5px 5px;padding: 10px;box-shadow: 1px 1px 3px grey;background: #fff;}
+.f_block_sidebar_bureau_news p{text-align: right;border-bottom: 1px dotted gray;}
+.f_block_sidebar_bureau_news a{font-size: 1.8vh;background: #ebebeb6e;/*min-height: 55px;*/}
+	
+/* newpublication */
+.f_publ_bl_post{flex: 1 1 220px;}
+.f_publ_img{margin: 0 auto;display: block;}
+
+/* category + tag */
+.tag .notary_side_r,
+.category .notary_side_r{display: none;}
+.tag .f_news_bureau,
+.category .f_news_bureau{flex: initial;margin: 0;padding: 0;box-shadow: none;background: none;}
+.ccttw{
+    width: 100%;
+    padding-right: 15px;
+}
+.wrapper_thumbnail_post{flex-wrap: wrap;-webkit-flex-wrap: wrap;}
+.tag .pt_st,
+.category .pt_st{margin: 5px auto;}
+.pt_st .post-thumbnail{width: 400px;height: 150px;overflow: hidden;}
+.pt_st .post-thumbnail img{width: 100%;height: 100%;object-fit: cover;}
+.block_article_publication_category p{text-align: left;}
+
+/* tax-mylabel */
+.tax-mylabel .site-main{display: block;}
+.tax-mylabel .notary_side_c{flex-basis: auto;width: 60%;}
+.tax-mylabel .blockttwr{-webkit-flex-wrap: wrap;flex-wrap: wrap;justify-content: center;}
+.tax-mylabel .notary_side_l,
+.tax-mylabel .notary_side_r{position: relative;float: left;}
+.tax-mylabel .notary_side_c{position: relative;float: right;min-height: 600px;}
+.tax-mylabel .f_news_bureau{/*border: 1px solid #dadada;*/flex: auto;margin:0;padding: 0;box-shadow: none;background: none;}
+
+/* archive */
+.date .notary_side_c{flex-basis: auto;width: 60%;}
+.date .archive_post_thumbnail_wrapper{-webkit-flex-wrap: wrap;flex-wrap: wrap;justify-content: center;}
+.date .site-main{display: block;}
+.date .notary_side_l,
+.date .notary_side_r{position: relative;float: left;}
+.date .notary_side_c{position: relative;float: right;}
+
+/* notary */
+.archive_notary_mosobl a::before, .archive_notary_msk a::before{filter: none;}
+.arcnot_c, .tax-mosobl .notary_side_c, .tax-msk .notary_side_c{flex-basis: auto;width: 60%;}
+.tax-mosobl .class-m-inf li{flex: 0 1 200px;}
+.page_published_wrapper,.block_category_representative_wrapper{width: 100%; margin: 0;}
+.page_published_wrapper {margin: auto;}
+.block_category_representative_wrapper{margin: 10px auto;}
+.cbnc{max-width: 100%;margin: auto;}
+.ecow, .ecowline {border-bottom: none;border-image: none;border-image-slice: initial;}
+.arcnot{display:none;}
+.article_heading_notary h1, .article_heading_notary_obl h1{padding: 20px 20px 20px 80px;}
+
+/* page information */
+.page_information .f_bl-a {/* outline: 1px solid #2196F3; */order: 1;}
+.page_information .article-inform{width: 100%;}
+.page_information .article_heading H1{padding-bottom: 30px;}
+.page_information .f_bl-c {/* outline: 1px solid #2196F3; */order: 2;width: 100%;}
+	
+/* zags */
+.page-child .notary_side_c, .page-parent .notary_side_c{flex-basis: auto;width:60%;}
+.block_article_zags ol li{flex: 1 1 auto;flex-basis: 225px;-webkit-flex-basis: 225px;}
+.sud_promo, .arrow {margin: 0 auto;width: auto;}
+	
+
+/* sud */
+.page_published_wrapper .article_heading H1{padding:20px 10px 20px 10px;}
+.page-template-spravka_as_sud .notary_side_c{flex-basis: auto;width:60%;}
+.sud_wrapper {width:100%;}
+.arrow ul li a:before{content: '\21D3';position: absolute;top: 3px;left: -10px;margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;color: #4267b2;}
+.time_job_court_wrapper{
+    width: 100%;
+}
+.date_job_court,
+.time_job_court,
+.rh_date_judge,
+.rh_time_judge{
+   flex: 1 1 240px;
+}
+.date_job_court p,
+.time_job_court p,
+.rh_date_judge h4,
+.rh_time_judge h4,
+.court_phone h4{
+   font-size: 21px;
+}
+.court_phone{
+    flex: 0 1 300px;
+}
+
+/* single uslugi */
+.single-uslugi .notary_side_r{display: none;}
+
+/* footer */
+.n-mbflu-class li{flex: 1 1 360px;}
+.fb1{display: none;}
+.fb2, .fb3{width: 100%;}
+.n-mbflu-class li a{color: #336699;color: white;text-shadow: 1px 1px 3px black;}
+.n-mbflu-class .sub-menu li a{color: gray;}
+.ya-share2__badge{
+    filter: none;
+}
+/* search */
+.sphi {width:30%;}
+/* zakaz */
+.bsb a{background: #ff7200;}
+.entry-taxonomy-content-footer .bsb a{background: #4266b2;}
+table{
+    width: auto;
+}
+}
+/* iPad in landscape */
+@media only screen  and (orientation : landscape) and (min-width : 300px) and (max-width : 850px){
+	.parent_page-yurist .stiky, .parent_page-nasledstvo .stiky, .page_nasledstvo .stiky{
+    position: relative;
+    top: 0;
+	}
+}
+@media only screen  and (orientation : landscape) and (min-width : 851px) and (max-width : 1125px){
+	.parent_page-yurist .stiky, .parent_page-nasledstvo .stiky, .page_nasledstvo .stiky{
+    position: sticky;
+    top: 10px;
+	}
+}
+@media only screen  and (orientation : landscape) and (min-width : 768px) and (max-width : 1125px){
+
+.header .container{
+    padding: 0px 10px 0px 10px;
+}
+/* font size */
+
+/* menu spravka*/
+.block_sidebar_news li a, .bsci li a{font-size: 1.6vw;}
+.arrow ul li a{font-size: 1.8vw;}
+.block_zags_wrapper .zags-thumbnail-wrapper p small{font-size: initial;}
+	
+/* interest */
+.main-blank p{font-size: 1.8vw}
+
+/* front slider */
+.figcaption_aksii{
+    font-size: 3vw;
+}
+
+/* entry-content */
+.entry-content p {font-size: 1.8vw;}
+	
+/* obrazci doc */
+.block_article_obrazcy_dokumentov_doc ol li ul li a{font-size: 1.5vw;}
+.f_bshpe p{font-size: 1.8vw;}
+	
+/* header menu */
+.logo{/*outline: 1px solid #fff;*/}
+.logo a:before, .logo a{/*outline: 1px solid red;*/}
+.header_wrapper_row_top{
+/*  outline: 1px solid white; */
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 55px;
+}
+.header_description{
+/*  outline: 1px solid white; */
+    margin: 0;
+    padding: 10px 0px 10px 10px;
+    width: 77%;
+    height: auto;
+    position: relative;
+    right: 0;
+    flex: none;
+    float: right;
+    color: #fff;
+    text-align: right;
+}
+.header_wrapper_menutop{/*outline: 1px solid #fff;*/}
+
+/* header job time and call */
+    .current-date-header-wrapper,
+    .header_social-menu2,
+    .widget-search{
+/*  outline: 1px dotted blue;*/
+    }    
+    .header_social-menu2{
+        width: auto;  
+    }
+    .menu-socz-seti-container{
+        padding-bottom: 3px;
+    }
+    .widget-search{
+        padding:0;
+        max-width: 100%;
+        flex: 1 1 auto;
+        align-items: center;
+        display: flex;
+    }
+    .widget-search section{
+        width: 100%;
+    }
+    .search-field{
+        padding: 1px;
+        max-width: 100%;
+    }
+    .header_time_time{
+        width: 160px;
+        flex: 1 0 160px;
+    }
+    .header_social-navigation a:before{
+        filter:none;
+    }
+
+.header_awh ul, .header_aph ul, .header_ao ul{margin: 5px 0px 5px 0px;}
+.header_awh{flex: 1 0 590px;}
+.header_awh ul {width: 100%;}
+.header_aph{flex: 1 1 auto;}
+.header_aph ul li{margin: auto;}
+.header_social-menu2{min-width: auto;}	
+	
+/* all section page */
+.notary-template .notary_side_c,
+.single .notary_side_c{width: 70.5%;}
+	
+.page-template-default .f_bl-a, .error404 .notary_side_c, .post-template-single-bureau-news-php .notary_side_c, .single-uslugi .notary_side_c, .tax-ocenka .notary_side_c, .tax-expertiza .notary_side_c, .tax-services .notary_side_c, .page_citizens .notary_side_c, .page_business .notary_side_c, .page_nezexpert .notary_side_c, .page_estimate .notary_side_c, .page_expertise .notary_side_c, .page_nezocenka .notary_side_c, .search .f_bl-a, .f_bl-c{
+    width: 70.5%;
+}
+
+/* page contact */
+.djc, .tjc{flex-basis: auto;flex: 1 1 155px;}
+.cohaw{width: auto;font-size: 1.8vw;}
+.djc{text-align: right;}
+.cdotwaoh div:nth-last-of-type(1){text-align: left;}
+.cohaw h3{font-size: 2.5vw;}
+.date_job, .time_job{flex-basis: auto;}
+.date_job span, .time_job span{font-size: 2.1vw;}
+.entry-content .cd p{font-size: 2.1vw;}
+	
+	
+/* taxonomy uslugi + ocenka + expertiza */
+.page_nezexpert .notary_side_c,
+.page_estimate .notary_side_c,
+.page_expertise .notary_side_c,
+.page_nezocenka .notary_side_c{
+    flex-basis:auto;
+}
+.content-taxonomy{
+    width:100%;
+}
+
+.tax-services .bapti img,
+.tax-ocenka .bapti img,
+.tax-expertiza .bapti img,
+.page_business .bapti img,
+.page_citizens .bapti img,
+.page_expertise .bapti img,
+.page_estimate .bapti img,
+.page_nezexpert .bapti img,
+.page_nezocenka .bapti img{filter: none;}
+	
+.post-template-single-bureau-news-php .f_bl-c{width: 25%;}
+.doc_blank_wrapper,
+.main-blank .article_information,
+.page-parent .article_information,
+.notary_side_c .article_information,
+.search .f_bl-a {width: 100%;}
+.tdbutton a{color: #336699;border: 1px solid #dedede;box-shadow: 2px 3px 3px #dedede;text-decoration: none;}
+.post-type-archive-uslugi .notary_side_l,
+.post-type-archive-uslugi .notary_side_r,
+.post-type-archive-uslugi .notary_side_b{display:none;}
+.post-type-archive-uslugi .n-mbflu{padding: 10px 0px 10px 0px;}
+.post-type-archive-uslugi #all-uslugi{padding:0;}
+.post-type-archive-uslugi .n-mbflu-class li{flex: 1 1 400px;}
+	
+.tax-services .article_heading H1,
+.tax-expertiza .article_heading H1,
+.tax-ocenka .article_heading H1{padding: 20px 10px 20px 80px;}
+
+/* СЃРїРёСЃРєРё */
+.hint-ios-orange li::before{
+	color:#ff7200;
+	}
+.hint li::before{
+/* outline: 1px solid gray; */
+    content: '\2714';
+    position: absolute;
+    top: 0;
+    left: -6px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: rgb(255, 165, 0);
+		
+}
+.doc_blank_wrapper .entry-content{padding:0px;}
+.entry-content ol, .entry-content ul {margin: 10px 20px 10px 0px;}
+
+/* news bureu */
+.post-template-single-bureau-news-php .f_bsciw{
+/* outline: 1px dotted blue; */
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+}
+.f_block_sidebar_bureau_news a{font-size: 1.8vw;}
+.f_bsciw{margin: 0px 8px 20px 0px;padding: 10px;box-shadow: 1px 1px 3px grey;background: #fff;}
+.f_block_sidebar_bureau_news{margin: 10px 10px 0px 10px;}
+.f_news_bureau{border: none;flex: none;margin: 0;padding: 0;box-shadow: none;background: none;}
+.f_block_sidebar_bureau_news ul{display: initial;-webkit-flex-wrap: initial;-webkit-flex-direction: initial;display: initial;flex-direction: initial;flex-wrap: initial;justify-content: normal;align-items: normal;}
+	
+/* newpublication */
+.f_publ_bl_post{flex: 1 1 220px;}
+.f_publ_img{margin: 0 auto;display: block;}
+
+
+/* category + tag */
+.tag .site-main, .category .site-main{-webkit-flex-wrap: nowrap; flex-wrap: nowrap;}
+.tag .notary_side_c,
+.category .notary_side_c{flex-basis: 600px;}
+/*.category .notary_side_c{flex-basis: 444px;}*/
+.category .notary_side_r{display: block;}
+.ccttw{width: 100%;}
+.wrapper_thumbnail_post{flex-wrap: wrap;-webkit-flex-wrap: wrap;}
+.pt_st .post-thumbnail{
+    width: 400px;
+    height: 150px;
+    overflow: hidden;
+}
+.category .pt_st .post-thumbnail,
+.category-stati .pt_st .post-thumbnail{
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+}
+.category .page-numbers,
+.category-stati .page-numbers{
+    margin: auto;
+}
+.pt_st .post-thumbnail img{width: 100%;height: 100%;object-fit: cover;}
+.block_article_publication_category p{text-align: left;}
+
+/* tax-mylabel */
+.tax-mylabel .notary_side_c{flex-basis: auto;/* width: 42%; */width: 71%;}
+.tax-mylabel .blockttwr{-webkit-flex-wrap: wrap;flex-wrap: wrap;justify-content: center;}
+.tax-mylabel .notary_side_l,
+.tax-mylabel .notary_side_r{position: relative;float: left;}
+.tax-mylabel .notary_side_c{position: relative;float: right;}
+
+/* archive */
+.date .notary_side_c{
+    flex-basis: auto;
+/*  width: 42%; */
+}
+.date .archive_post_thumbnail_wrapper{-webkit-flex-wrap: wrap;flex-wrap: wrap;justify-content: center;}
+
+
+/* notary */
+.archive_notary_mosobl a::before, .archive_notary_msk a::before{filter: none;}
+.tax-mosobl .notary_side_c, .tax-msk .notary_side_c{flex-basis: auto;width: 70.5%;}
+.page_published_wrapper,.block_category_representative_wrapper{width: 100%; margin: 0;}
+.page_published_wrapper {margin: auto;}
+.block_category_representative_wrapper{margin: 10px auto;}
+.cbnc{max-width: 100%;margin: auto;}
+.ecow, .ecowline {border-bottom: none;border-image: none;border-image-slice: initial;}
+.article_heading_notary h1, .article_heading_notary_obl h1{padding: 20px 20px 20px 80px;}
+
+/* zags */
+.page-parent .notary_side_l{/*width: 75%;*/}
+.page-parent .f_bl-c{/*width: 75%;*/}
+.page-template-spravka_as_sud .notary_side_c,
+.page-template-spravka_msk_sud .notary_side_c,
+.page-child .notary_side_c,
+.page-parent .notary_side_c,
+.page-court .notary_side_c{flex-basis: auto;width:70%;}
+.block_article_zags ol li{flex: 1 1 auto;flex-basis: 225px;-webkit-flex-basis: 225px;}
+.sud_promo, .arrow {margin: 0 auto;width: auto;}
+
+/* sud */
+.sud_wrapper {width:100%;}
+.arrow ul li a:before{content: '\21D3';position: absolute;top: 3px;left: -10px;margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;color: #4267b2;}
+.time_job_court_wrapper{
+    width: 400px;
+}
+.date_job_court,
+.time_job_court,
+.rh_date_judge,
+.rh_time_judge{
+    flex: 1 1 150px;
+}
+
+/* page information */
+.page_information .f_bl-a {/* outline: 1px solid #2196F3; */order: 1; width: 74%;}
+.page_information .article-inform{width: 100%;flex: 1 1 260px;}
+.page_information .article_heading H1{padding-bottom: 30px;}
+.page_information .f_bl-c {/* outline: 1px solid #2196F3; */order: 2; width: 260px;}
+
+/* single uslugi */
+/*.single-uslugi .notary_side_r{display: none;}*/
+
+/* footer */
+.n-mbflu-class li{flex: 1 1 360px;}
+.fb1{display: none;}
+.fb2, .fb3{width: 100%;}
+.n-mbflu-class li a{color: #336699;color: white;text-shadow: 1px 1px 3px black;}
+.n-mbflu-class .sub-menu li a{color: gray;}
+
+/* zakaz */
+.entry-taxonomy-content-footer .bsb a{background: #4266b2;}
+.bsb a{background: #ff7200;}
+.ya-share2__badge{
+    filter: none;
+}
+}
+/* iPad in landscape */
+@media only screen  and (orientation : landscape) and (min-width : 768px) and (max-width : 1024px){
+    /*
+    .page-template-default .f_bl-a,
+    .error404 .notary_side_c,
+    .post-template-single-bureau-news-php .notary_side_c,
+    .single-uslugi .notary_side_c,
+    .tax-ocenka .notary_side_c,
+    .tax-expertiza .notary_side_c,
+    .tax-services .notary_side_c,
+    .page_citizens .notary_side_c,
+    .page_business .notary_side_c,
+    .page_nezexpert .notary_side_c,
+    .page_estimate .notary_side_c,
+    .page_expertise .notary_side_c,
+    .page_nezocenka .notary_side_c,
+    .search .f_bl-a,
+    .f_bl-c 
+    
+    .page_citizens .notary_side_c {
+        width: 74%;
+    }
+    */
+}
+
+/* all monitors */
+@media (min-width: 1001px) and (max-width: 1200px){
+	.header_awh{
+		flex: 1 0 590px;
+	}
+	.f_bsciw{
+		margin: 20px 8px 20px 0px;
+	}
+	.page-template-default .f_bl-a,
+	.error404 .notary_side_c,
+	.post-template-single-bureau-news-php .notary_side_c,
+	.single-uslugi .notary_side_c,
+	.tax-ocenka .notary_side_c,
+	.tax-expertiza .notary_side_c,
+	.tax-services .notary_side_c,
+	.page_information .f_bl-a,
+	.page_citizens .notary_side_c,
+	.page_business .notary_side_c,
+	.page_nezexpert .notary_side_c,
+	.page_estimate .notary_side_c,
+	.page_expertise .notary_side_c,
+	.page_nezocenka .notary_side_c,
+	.page-parent .notary_side_c,
+	.search .f_bl-a, .f_bl-c {
+		width: 69.5%;
+	}
+}
+@media (min-width: 501px) and (max-width: 1000px){
+	.page_contact .notary_side_r{
+		display: none;
+	}
+	.page_feedback .bsciw {
+		width: auto;
+	}
+	.page_feedback .notary_side_r{
+		flex-basis: auto;
+	}
+	.f_bsciw,
+	.page .block_sidebar_news,
+	.page_feedback .block_sidebar_news,
+	.page_citizens .block_sidebar_news,
+	.page_business .block_sidebar_news,
+	.page-parent .block_sidebar_news,
+	.post-template-single-bureau-news-php .f_bsciw,
+	.single-post .block_sidebar_news,
+	.single-uslugi .block_sidebar_news,
+	.tax-services .block_sidebar_news{
+		box-shadow:none;
+		background: none;
+	}
+	/*
+	.parent_page-nasledstvo .notary_side_c,
+	.page_nasledstvo .notary_side_c{
+    / *  flex-basis: 660px; * /
+		flex: 1 1 290px!important;
+	}
+	*/
+	.parent_page-nasledstvo.page-child .notary_side_c,
+	.page_nasledstvo.page-parent .notary_side_c{
+		flex: 1 1 290px;
+	}
+	.parent_page-nasledstvo.page-child .notary_side_l,
+	.page_nasledstvo.page-parent .notary_side_l{
+		flex-basis: 290px;
+	}
+
+	.parent_page-nasledstvo .block_sidebar_news,
+	.page_nasledstvo .block_sidebar_news{
+		box-shadow: 1px 1px 3px grey;
+		background: #fff;
+	}
+	.parent_page-nasledstvo .block_sidebar_news ul li,
+	.page_nasledstvo .block_sidebar_news ul li{
+		margin: 5px auto!important;
+		padding:0!important;
+		-webkit-box-shadow: none!important;
+		box-shadow: none!important;
+	}
+	.parent_page-nasledstvo .block_sidebar_news li::before,
+	.page_nasledstvo .block_sidebar_news li::before,
+	.parent_page-nasledstvo .block_sidebar_news li:hover::before,
+	.page_nasledstvo .block_sidebar_news li:hover::before{
+		top: 5px;
+		left: 0;
+	}
+	.parent_page-nasledstvo .block_sidebar_news li a,
+	.page_nasledstvo .block_sidebar_news li a, .bsci li a{
+		font-size: inherit;
+	}
+	
+	.home .f_bl-c,
+	.error404 .notary_side_c,
+	.post-template-single-bureau-news-php .f_bl-c,
+	.post-template-single-bureau-news-php .notary_side_c,
+	.tax-ocenka .notary_side_c,
+	.tax-expertiza .notary_side_c,
+	.tax-services .notary_side_c,
+	.page_feedback .notary_side_r,
+	.page_feedback .bsciw,
+	.page-template-default .f_bl-a,
+	.page_information .f_bl-a,
+	.page_information .f_bl-c,
+	.page_citizens .notary_side_c,
+	.page_business .notary_side_c,
+	.page_nezexpert .notary_side_c,
+	.page_estimate .notary_side_c,
+	.page_expertise .notary_side_c,
+	.page_nezocenka .notary_side_c,
+	.single .notary_side_c,
+	.single-post .notary_side_c,
+	.single .notary_side_r,
+	.single-uslugi .notary_side_c,
+	.notary-template .notary_side_c,
+	.search .f_bl-a, .f_bl-c {
+		width: 100%;
+	}
+	
+	.single .notary_side_r,
+	.page .notary_side_r,
+	.tax-services .notary_side_r,
+	.page_citizens .notary_side_r,
+	.page_business .notary_side_r,
+	.page_nezexpert .notary_side_r,
+	.page_estimate .notary_side_r,
+	.page_expertise .notary_side_r,
+	.page_nezocenka .notary_side_r,
+	.page-parent .notary_side_l,
+	.page-parent .notary_side_c,
+	.page-child .notary_side_l,
+	.page-child .notary_side_c{
+	/*	outline: 1px dotted red; */
+		flex-basis: auto;
+		width: 100%;
+	}
+	
+	.single-post .bsciw,
+	.tax-services .bsciw,
+	.page_citizens .bsciw,
+	.page_business .bsciw,
+	.page_nezexpert .bsciw,
+	.page_estimate .bsciw,
+	.page_expertise .bsciw,
+	.page_nezocenka .bsciw,
+	.page-parent .bsciw,
+	.page-child .bsciw,
+	.single-uslugi .bsciw,
+	.parent_page-yurist .bsciw,
+	.page .bsciw{
+		width: auto;
+	}
+	.page .block_sidebar_news .title H1,
+	.single-uslugi .block_sidebar_news .title H1,
+	.tax-services  .block_sidebar_news .title H1,
+	.page-parent  .block_sidebar_news .title H1,
+	.page-child  .block_sidebar_news .title H1,
+	.single-post .block_sidebar_news .title H1{
+		text-align: left;
+	}
+	.single-post .bshp{
+		display: inline-block;
+		position: relative;
+	}
+	.single-post .bshph,
+	.single-post .bshphi,
+	.single-post .bshpe{
+		position: relative;
+	}
+	.single-post .bshph,
+	.single-post .bshpe{
+		width: 70%;
+	}
+	.single-post .bshph{
+		float: left;	
+	}
+	.single-post .bshphi{
+		width: 30%;
+	}
+	.single-post .bshphi,
+	.single-post .bshpe{
+		float: right;
+	}
+.f_bsciw:hover{
+    border-radius: 0;
+    /* box-shadow: 2px 2px 6px grey; */
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transition: none;
+    -webkit-transition: none;
+    transition: none;
+    transition: none;
+    -webkit-transition-property: none;
+    transition-property: none;
+    transition-property: none;
+}
+	.f_news_bureau,
+	.page_feedback .block_sidebar_news ul li,
+	.tax-services .block_sidebar_news ul li,
+	.page_citizens .block_sidebar_news ul li,
+	.page_business .block_sidebar_news ul li,
+	.page_nezexpert .block_sidebar_news ul li,
+	.page_estimate .block_sidebar_news ul li,
+	.page_expertise .block_sidebar_news ul li,
+	.page_nezocenka .block_sidebar_news ul li,
+	.page-parent .block_sidebar_news ul li,
+	.page-child .block_sidebar_news ul li,
+	.single-uslugi .block_sidebar_news ul li,
+	.page .block_sidebar_news ul li,
+	.single-post .aaa{
+		margin-top: 9px;
+		padding: 10px;
+		-webkit-box-shadow: 0 2px 3px rgba(14,21,47,.1), 0 2px 36px rgba(14,21,47,.08);
+		box-shadow: 0 2px 3px rgba(14,21,47,.1), 0 2px 36px rgba(14,21,47,.08);
+	}
+	.f_news_bureau:hover,
+	.tax-services .block_sidebar_news ul li:hover,
+	.page_citizens .block_sidebar_news ul li:hover,
+	.page_business .block_sidebar_news ul li:hover,
+	.page_nezexpert .block_sidebar_news ul li:hover,
+	.page_estimate .block_sidebar_news ul li:hover,
+	.page_expertise .block_sidebar_news ul li:hover,
+	.page_nezocenka .block_sidebar_news ul li:hover,
+	.page_feedback .block_sidebar_news ul li:hover,
+	.page-parent .block_sidebar_news ul li:hover,
+	.page-child .block_sidebar_news ul li:hover,
+	.single-uslugi .block_sidebar_news ul li:hover,
+	.single-post .aaa:hover{
+		padding: 10px;
+		border-radius: 3px;
+		/* box-shadow: 2px 2px 6px grey; */
+		-webkit-box-shadow: 0 8px 14px rgba(14,21,47,.1), 0 2px 36px rgba(14,21,47,.08);
+		box-shadow: 0 8px 14px rgba(14,21,47,.1), 0 2px 36px rgba(14,21,47,.08);
+		/* transition: .5s ease-in-out; */
+		-webkit-transition: opacity .15s ease-out,-webkit-box-shadow .15s ease-out,-webkit-transform .15s ease-out;
+		transition: opacity .15s ease-out,box-shadow .15s ease-out,transform .15s ease-out;
+		transition: opacity .15s ease-out,box-shadow .15s ease-out,transform .15s ease-out,-webkit-box-shadow .15s ease-out,-webkit-transform .15s ease-out;
+		-webkit-transition-property: -webkit-transform,-webkit-box-shadow;
+		transition-property: transform,box-shadow;
+		transition-property: transform,box-shadow,-webkit-transform,-webkit-box-shadow;
+	}
+	.block_sidebar_news li::before,
+	.block_sidebar_news li:hover::before{
+		top: 15px;
+		left: 10px;
+	}
+	.bspwsrw_line{
+		display: none;
+	}
+
+}
+@media (min-width: 761px) and (max-width: 1000px){
+	.header_awh{
+		flex: 1 0 590px
+	}
+}
+@media (min-width: 501px) and (max-width: 760px){
+	.header_awh{
+		flex: 0 1 300px
+	}
+	.header_awh .center__title{
+		padding-top: 9px;
+	}
+	.header_awh li:last-child:before{
+		top: 5px;
+	}
+	.center__title .center__visible,
+	.center__title .center__hover{
+		position: absolute;
+		left: 0;
+		top: 5px;
+	}
+	
+}
+@media (min-width: 768px) and (max-width: 860px){
+	.page_contact .djc, .tjc{
+		flex: 1 1 160px;
+	}
+}
+@media (min-width: 861px) and (max-width: 960px){
+	.page_contact .djc, .tjc{
+		flex: 1 1 190px;
+	}
+}
+@media (min-width: 961px) and (max-width: 1129px){
+	.page_contact .djc, .tjc{
+		flex: 1 1 250px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1299px){
+	.page_contact .cdotwaoh div:nth-last-of-type(1){
+		text-align: center;
+	}
+}
+@media (min-width: 1201px) and (max-width: 1220px){
+	.page-template-default .f_bl-a,
+	.error404 .notary_side_c,
+	.post-template-single-bureau-news-php .notary_side_c,
+	.single-uslugi .notary_side_c,
+	.tax-ocenka .notary_side_c,
+	.tax-expertiza .notary_side_c,
+	.tax-services .notary_side_c,
+	.page_information .f_bl-a,
+	.page_citizens .notary_side_c,
+	.page_business .notary_side_c,
+	.page_nezexpert .notary_side_c,
+	.page_estimate .notary_side_c,
+	.page_expertise .notary_side_c,
+	.page_nezocenka .notary_side_c,
+	.page-parent .notary_side_c,
+	.page-child .notary_side_c,
+	.search .f_bl-a,
+	.f_bl-c {
+		width: 69.5%;
+	}
+	.page_contact .cdotwaoh div:nth-last-of-type(1){
+		text-align: center;
+	}
+	.page-parent .notary_side_c,
+	.page-child .notary_side_c{
+		flex-basis: auto;
+	}
+}
+@media (min-width: 200px) and (max-width: 1023px){
+	.category-stati .notary_side_r{
+		display: none;
+	}
+	.single-post .entry-content ol,
+	.entry-content ul {
+		margin: 10px 20px 10px 40px;
+	}
+}
