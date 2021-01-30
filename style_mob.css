@@ -3861,7 +3861,7 @@ table{
 	.single-uslugi .notary_side_c,
 	.notary-template .notary_side_c,
 	.search .f_bl-a, .f_bl-c {
-		/*width: 100%;*/
+		width: 100%;
 	}
 	
 	.single .notary_side_r,
