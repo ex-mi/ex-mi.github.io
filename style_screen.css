@@ -2268,7 +2268,7 @@ figcaption {
 /*	width: 910px; */
 	width: 890px;
     padding: 0px 10px 10px 10px;
-    /*flex: none;*/
+    flex: none;
 }
 .page-template-default .page_published_wrapper{
     width: 100%;
