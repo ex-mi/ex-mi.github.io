@@ -1507,8 +1507,8 @@ ul li img{
 .f_bl-a{
 /*  outline: 1px solid red; */
     order: 1;
-/*  width: 640px; */
-/*  height: 475px; */
+width: 640px;
+height: auto;
     flex: 1 1 auto;
     padding: 10px 10px 10px 0px;
 
@@ -2268,7 +2268,7 @@ figcaption {
 /*	width: 910px; */
 	width: 890px;
     padding: 0px 10px 10px 10px;
-    flex: none;
+    /*flex: none;*/
 }
 .page-template-default .page_published_wrapper{
     width: 100%;
